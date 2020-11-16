@@ -1,5 +1,5 @@
 body {
-	font-size:13px;
+	font-size:17px;
 	font-family:'Oxygen', sans-serif;
 	background: url("../images/buycars-page/background-image.jpg") repeat;			
 }
@@ -9,91 +9,28 @@ body {
 }
 			
 /***********NAV BAR**********************/			
-#logoLink {				
-	font-family:'Montserrat', sans-serif;
-	text-transform:uppercase;
-	color:black;		
-}
-			
-.navbar {	
-	margin-top:-20px;
+
+.button{
+	
 	background-color:transparent;
-	position:absolute;		
-}
-			
-#logoLinkBtn {	
-	border:none;
-	background-color:transparent;				
-}
-			
-#logoLink:hover {
-	text-decoration:none;	
-}
-			
-.nav-link {	
-	color:black;
-	text-transform: uppercase;
-	font-family:'Montserrat', sans-serif;			
-}
-			
-.nav-link:hover {
-	color:black;			
-}
-			
-.nav-item {
-	margin-bottom:5px;
-}
-			
-.borderHover:hover {
-	border-bottom:3px solid black;
-	transition:0.5s;			
-}
-			
-.container {
-	text-align:center;
-	width:600px;
-	padding:10px 5px;
-	text-align: center;		
-}
-			
-.dropdown-menu {
-	background-color:#E6E9EE;
-	border:none;
-	display:none;	
-}
-			
-.dropdown-item:hover {				
-	background-color:white;
-}
-			
-.dropdown-divider {
-	border-bottom:1px solid lightgrey;
-}
-			
-#rentalDropdownMenu {
-	display:none;				
-}
-			
-.navbar img {
-	margin-left:-10px;
-	width: 150px;
-	height: 100px;
-	padding-bottom:4px;
-}
-			
-#sgnInBtn {	
-	width:100px;
+	width:100 !important;
 	border:2px outset black;
 	border-radius:17px;
-	padding:7px 5px ;
-	background-color:transparent;
-	margin-top:-2px;			
+	padding:10px;	
+	font-weight:bold;
+	
 }
-			
-#sgnInBtn:hover {
-	background-color:white;
-	border-color:lightgrey;
-	transition:0.7s;	
+
+#sgnInBtn{
+	
+	margin-top:-2px;
+	width:110px;
+}
+
+#sgnInBtn:hover{
+	
+	background-image:linear-gradient(to bottom right, violet, orange);	
+
 }
 			
 			

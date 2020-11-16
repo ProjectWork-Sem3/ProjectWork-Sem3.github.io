@@ -1,0 +1,403 @@
+<html>
+
+	<head>
+	
+		<title>XtrmAuto</title>
+		
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+		<script src="https://kit.fontawesome.com/160f8a0fd9.js" crossorigin="anonymous"></script>
+
+		
+		
+		<link href="css/navBar.css" rel="stylesheet">
+	
+		<link href="css/CarComparisonPage.css" rel="stylesheet">
+		
+		
+		
+		
+	
+	<style>
+	
+		body{
+		
+			font-size:17px;
+			font-weight:bold;
+			font-family:'Montserrat', sans-serif;
+			margin-bottom:100px;
+		
+		}
+	
+	
+	</style>
+	
+	
+	</head>
+	
+	<body id="body">
+	
+	<div class="container-fluid">
+		
+		<nav class="navbar navbar-toggleable-md navbar-expand-md fixed-top" id="navBar" >
+  
+  			<a id="logoLink" class="form-inline" href="index.html" ><img id="logoImg" src="images/XTRM LOGO.png"></a>
+
+  			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+				<ul class="navbar-nav form-inline" id="navbar-container">
+
+    				<li class="nav-item dropdown" >
+						
+						<a class="nav-link dropdown-toggle navBarLink borderHover" id="rentalDropdown" onClick="ren()" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+						
+							Rental Service
+						
+						</a>
+						
+						<div class="dropdown-menu"  id="rentalDropdownMenu" aria-labelledby="navbarDropdown">
+
+          					<a class="dropdown-item" href="#">4WD</a>
+
+							<div class="dropdown-divider"></div>
+
+          					<a class="dropdown-item " href="#">2WD</a>
+
+          					<div class="dropdown-divider"></div>
+
+          					<a class="dropdown-item " href="#">Limo Service</a>
+							
+							<div class="dropdown-divider"></div>
+							
+							<a class="dropdown-item " href="CarComparisonPage.html">Car Comparison</a>
+							
+        				</div>
+						
+        			</li>
+
+ 					<li class="nav-item dropdown">
+
+        				<a class="nav-link  dropdown-toggle borderHover" id="buySellDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+
+          					Buy & Sell
+
+        				</a>
+
+        				<div class="dropdown-menu" id="buySellDropdownMenu" aria-labelledby="navbarDropdown">
+
+          					<a class="dropdown-item " href="buycars_page.html">4WD</a>
+
+							<div class="dropdown-divider"></div>
+
+          					<a class="dropdown-item " href="#">2WD</a>
+
+          					<div class="dropdown-divider"></div>
+
+          					<a class="dropdown-item " href="#">Exotic Cars</a>
+							
+							<div class="dropdown-divider"></div>
+							
+							<a class="dropdown-item " href="#">Vintage Collection</a>
+							
+        				</div>
+
+      				</li>
+					
+					<li class="nav-item">
+      
+	  					<a href="#" class="nav-link navBarLink borderHover">Car Tuning & Mods</a>
+						
+        			</li>
+					
+					<li class="nav-item">
+      
+	  					<a href="#" class="nav-link navBarLink borderHover ">Car Care</a>
+						
+        			</li>
+	  
+    			</ul>
+				
+  			</div>
+			
+			<div>
+			
+				<button type="button" class="button" id="sgnInBtn" onclick="location.href='SignInPage.html';" >Sign In</button>
+			
+			</div>
+
+		</nav>
+		
+	</div>
+	
+	<div class="jumbotron jumbotron-fluid" id="stretchJumbotron">
+	
+		<div class="container container-fluid" id="mainCardContainer">	
+		
+			<div class="container" id="cardContainer_1">
+				
+				<div class="card" style="width: 20rem;">
+					
+					<img class="card-img-top" src="images/CarComparison/Tundra.jpg" alt="">
+					
+					<div class="card-block">
+					
+						<h4 class="card-title">Toyoyta Tundra</h4>
+						<p class="card-text">2020 Model Toyota Tundra</p>
+					
+					</div>
+					
+					<ul class="list-group list-group-flush">
+					
+						<li class="list-group-item">TYPE: 4WD AUTOMATIC</li>
+						<li class="list-group-item">DISTANCE: 1000 KM</li>
+						<li class="list-group-item">PRICE: 1.15 Cr</li>
+					
+					</ul>
+				
+					<div class="card-block">
+						
+						<button class="button inline" type="button">Buy Now<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button inline" type="button">See More<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button" type="button" id="cmprBtn">Compare<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+					</div>
+				
+				</div>
+		
+			</div>
+			
+			<div class="container" id="cardContainer_2">
+				
+				<div class="card" style="width: 20rem;">
+					
+					<img class="card-img-top" src="images/CarComparison/Tundra.jpg" alt="">
+					
+					<div class="card-block">
+					
+						<h4 class="card-title">Toyota Tundra</h4>
+						<p class="card-text">2020 Model Toyota Tundra</p>
+					
+					</div>
+					
+					<ul class="list-group list-group-flush">
+					
+						<li class="list-group-item">TYPE: 4WD AUTOMATIC</li>
+						<li class="list-group-item">DISTANCE: 1000 KM</li>
+						<li class="list-group-item">PRICE: 1.15 Cr</li>
+					
+					</ul>
+				
+					<div class="card-block">
+						
+						<button class="button inline" type="button">Buy Now<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button inline" type="button">See More<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button" type="button" id="cmprBtn">Compare<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+					</div>
+				
+				</div>
+		
+			</div>
+			
+			<div class="container" id="cardContainer_3">
+				
+				<div class="card" style="width: 20rem;">
+					
+					<img class="card-img-top" src="images/CarComparison/Tundra.jpg" alt="">
+					
+					<div class="card-block">
+						
+						<h4 class="card-title">Toyota Tundra</h4>
+						<p class="card-text">2020 Model Toyota Tundra</p>
+						
+					</div>
+						
+					<ul class="list-group list-group-flush">
+					
+						<li class="list-group-item">TYPE: 4WD AUTOMATIC</li>
+						<li class="list-group-item">DISTANCE: 1000 KM</li>
+						<li class="list-group-item">PRICE: 1.15 Cr</li>
+					
+					</ul>
+					
+					<div class="card-block">
+						
+						<button class="button inline" type="button">Buy Now<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button inline" type="button">See More<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button" type="button" id="cmprBtn">Compare<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+					</div>
+					
+				</div>
+			
+			</div>
+				
+			<div class="container " id="cardContainer_4">
+				
+				<div class="card" style="width: 20rem;">
+				
+					<img class="card-img-top" src="images/CarComparison/Tundra.jpg" alt="">
+						
+					<div class="card-block">
+						
+						<h4 class="card-title">Toyota Tundra</h4>
+						<p class="card-text">2020 Model Toyota Tundra</p>
+						
+					</div>
+					
+					<ul class="list-group list-group-flush">
+					
+						<li class="list-group-item">TYPE: 4WD AUTOMATIC</li>
+						<li class="list-group-item">DISTANCE: 1000 KM</li>
+						<li class="list-group-item">PRICE: 1.15 Cr</li>
+					
+					</ul>
+				
+					<div class="card-block">
+						
+						<button class="button inline" type="button">Buy Now<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+					
+						<button class="button inline" type="button">See More<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button" type="button" id="cmprBtn">Compare<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+					</div>
+					
+				</div>
+			
+			</div>
+				
+			<div class="container " id="cardContainer_5">
+				
+				<div class="card" style="width: 20rem;">
+					
+					<img class="card-img-top" src="images/CarComparison/Tundra.jpg" alt="">
+					
+					<div class="card-block">
+					
+						<h4 class="card-title">Toyota Tundra</h4>
+						<p class="card-text">2020 Model Toyota Tundra</p>
+						
+					</div>
+					
+					<ul class="list-group list-group-flush">
+					
+						<li class="list-group-item">TYPE: 4WD AUTOMATIC</li>
+						<li class="list-group-item">DISTANCE: 1000 KM</li>
+						<li class="list-group-item">PRICE: 1.15 Cr</li>
+					
+					</ul>
+						
+					<div class="card-block">
+						
+						<button class="button inline" type="button">Buy Now<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button inline" type="button">See More<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button" type="button" id="cmprBtn">Compare<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+					</div>
+					
+				</div>
+			
+			</div>
+			
+			<div class="container " id="cardContainer_6">
+				
+				<div class="card" style="width: 20rem;">
+					
+					<img class="card-img-top" src="images/CarComparison/Tundra.jpg" alt="">
+					
+					<div class="card-block">
+					
+						<h4 class="card-title">Toyota Tundra</h4>
+						<p class="card-text">2020 Model Toyota Tundra</p>
+						
+					</div>
+					
+					<ul class="list-group list-group-flush">
+					
+						<li class="list-group-item">TYPE: 4WD AUTOMATIC</li>
+						<li class="list-group-item">DISTANCE: 1000 KM</li>
+						<li class="list-group-item">PRICE: 1.15 Cr</li>
+					
+					</ul>
+						
+					<div class="card-block">
+						
+						<button class="button inline" type="button">Buy Now<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button inline" type="button">See More<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+						<button class="button" type="button" id="cmprBtn">Compare<img class="arrowMarkImg inline" src="images/arrowmark.png"></button>
+						
+					</div>
+					
+				</div>
+			
+			</div>
+				
+		</div>
+
+		<button class="button" style="display:none;" onclick='body.scrollTo({top:0, behavior:"smooth"});' id="goTopBtn">Top<img src="images/arrowmark.png" class="arrowMarkImg inline" style="transform: rotate(270deg); margin-left:15px; padding:2px 2px;"></button>
+
+	</div>	
+		
+		
+	<script type="text/javascript">
+		
+		
+			document.getElementById("rentalDropdown").onclick = function(){
+			
+				document.getElementById("rentalDropdownMenu").style.display = "block";
+			
+			};
+			
+			document.getElementById("rentalDropdownMenu").onmouseleave = function(){
+			
+				document.getElementById("rentalDropdownMenu").style.display = "none";
+			
+			};
+			
+			document.getElementById("buySellDropdown").onclick = function(){
+			
+				document.getElementById("buySellDropdownMenu").style.display = "block";
+			
+			};
+			
+			document.getElementById("buySellDropdownMenu").onmouseleave = function(){
+			
+				document.getElementById("buySellDropdownMenu").style.display = "none";
+			
+			};
+			
+			
+			document.getElementById("body").onscroll = function(){
+			
+				document.getElementById("goTopBtn").style.display = "block";
+				
+			};
+		
+		
+		</script>
+	
+
+	
+	</body>
+
+</html>
+
+
+

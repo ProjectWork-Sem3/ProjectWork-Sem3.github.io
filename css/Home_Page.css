@@ -1,44 +1,46 @@
+		<meta charset="utf-8">
 
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+		<script src="https://kit.fontawesome.com/160f8a0fd9.js" crossorigin="anonymous"></script>
 		
-			body{
+		
+		
+	
 
-				font-size:13px;
-				background-color:#F7F7F7;
-			
+<style>
+
+			html{
+				
+				scroll-behavior:smooth;	
+				
+			}
+		
+			#logoLink{
+				
+				margin-left:-15px;
+				margin-right:15px;
+				margin-top:-3px;
+				
 			}
 			
-			.bold{
+			#navbarSupportedContent{
 				
-				font-weight:bold;
+				position:relative;
+				padding-left:300px;
+				text-align:center;
 				
 			}
 			
 			#logoLink{
 				
-				font-family:'Montserrat', sans-serif;
-				text-transform:uppercase;
-				color:black;
-				
-			}
-			
-			.navbar{
-				
-				margin-top:-20px;
-				background-color:transparent;
-				position:absolute;
-				
-			}
-			
-			#logoLinkBtn{
-				
-				border:none;
-				background-color:transparent;
-				
-			}
-			
-			#logoLink:hover{
-				
-				text-decoration:none;
+				margin-left:-12px;
+				margin-right:16px;
+				margin-top:1px;
 				
 			}
 			
@@ -103,7 +105,7 @@
 				
 			}
 			
-			img{
+			#logoImg{
 				
 				margin-left:-10px;
 				width: 150px;
@@ -114,10 +116,14 @@
 			
 			#jumbotron_1{
 				
-				background-image:url("../images/HomePage/gtrcar.jpg");
-				height:600px;
+				background-image:url("../images/HomePage/porsche.jpg");
+				height:1100px;
 				background-size:cover;
 				margin-bottom:0px;
+				margin-top:-150px;
+				text-align:center;
+				border-radius:0px;
+				padding:0px;
 				
 			}
 			
@@ -125,30 +131,313 @@
 				
 				background-image:url("../images/HomePage/bronco.jpeg");
 				background-size:cover;
-				height:600px;
+				height:800px;
 				margin-bottom:0px;
+				text-align:center;
+				margin-right:0px;
+				border-radius:0px;
+				
+			}
+	
+			#formLogo{
+		
+				height:500px;
+				position:relative;
+				left:-400px;
+				top:200px;
+			
+			}
+	
+			#formLogoText{
+		
+				position:relative;
+				left:-530px;
+	
+			}
+
+			
+			.jumbotron img{
+				
+				text-align:center;
+				margin-left:auto;
+				margin-right:auto;
+				
+			}
+			
+			.button{
+				
+				width:auto;
+				border:2px outset black;
+				border-radius:17px;
+				padding:10px 7px ;
+				background-color:transparent;
+				transition:0.4s;
+				
+			}
+			
+			.button:hover{
+				
+				background-color:white;
+				border-color:lightgrey;
+				transition:0.7s;
+				font-size:17px;
+				box-shadow:2px 5px 10px black;
+				
+			}
+			
+			.button:active{
+				
+				box-shadow:0 2px 5px grey;
+				transform: translateY(4px);
+				transition:0.2s;
 				
 			}
 			
 			#sgnInBtn{
 				
-				width:100px;
-				border:2px outset black;
-				border-radius:17px;
-				padding:7px 5px ;
-				background-color:transparent;
 				margin-top:-2px;
+				width:110px;
 				
 			}
 			
 			#sgnInBtn:hover{
 				
+				background-image:linear-gradient(to bottom right, violet, orange);
+	
+			}
+			
+			#buyNowBtn{
+				
+				float:left;
 				background-color:white;
-				border-color:lightgrey;
-				transition:0.7s;
+				
+			}
+			
+			#buyNowBtn:hover{
+				
+				background-color:lightgrey;
+				background-image:linear-gradient(to bottom right, violet, orange);
+				border-color:black;
+				
+			}
+			
+			#seeMoreBtn{
+				
+				background-color:white;
+				float:right;
+			
+			}
+			
+			#seeMoreBtn:hover{
+				
+				background-color:lightgrey;
+				border-color:black;
+				background-image:linear-gradient(to bottom right, violet, orange);
+				
+			}
+			
+			.arrowMarkImg{
+				
+				margin-left:5px;
+				height:20px;
+				width:20px;
+				
+			}
+			
+			#buyMoreBtnCntr{
+				
+				text-align:center;
+				background-color:transparent;
+				padding:20px;
+				width:400px;
+				height:100px;
+				position:absolute;
+				left:420px;
+				margin-top:500px;
+				
+			}
+			
+			#goTopBtn{
+				
+				position:fixed;
+				bottom:25px;
+				background-image:linear-gradient(to bottom right, #F0BD13, grey, #364763);
+				width:100px;
+				margin-left:25px;
+				
+			}
+			
+			.arrowMarkImgRotate{
+				
+				transform: rotate(90deg);
+				
+			}
+	
+			.panel-footer {
+
+				padding-top: 35px;
+				background-color:#343A40;
+				border-top: 0;
+				color:#DEFFFF;
+				margin-bottom:70px;;
+
+			}
+
+			#hours, #address {
+				
+				padding-left: 30px;
+				padding-right: 30px;
+
+			}
+
+			#address p {
+
+				color: lightgrey;	
+				font-size: 13px;
+				
+			}
+
+			#testimonials {
+
+				font-style: italic;	
+				padding-left: 30px;
+				padding-right: 30px;
+
+			}
+			
+			.sclMedia{
+				
+				margin-left:300px;
+				
+				
+			}
+			
+			#instaIcon{
+				
+				width:30px;
+				height:30px;
+				margin-left:10px;
+				position:relative;
+				top:-2px;
+				
+			}
+			
+			#twitterIcon{
+				
+				width:30px;
+				height:30px;
+				margin-left:10px;
+				position:relative;
+				top:-2px;
+				
+			}
+			
+			#facebookIcon{
+				
+				width:20px;
+				height:20px;
+				margin-left:15px;				
+				position:relative;
+				top:-2px;
+				
+			}
+			
+			.box {
+				
+				transform: translate(-50%, -50%);
+				text-align:center;
+				
+			}
+			
+			.box span{
+				
+				display:block;
+				width:20px;
+				height:20px;
+				border-bottom:2px solid white;
+				border-right:2px solid white;
+				transform:rotate(45deg);
+				animation: animate 2s infinite;
+				margin-left:70px;
+				margin-top:-14px;
+
+			}
+			
+			.box span:nth-child(1){
+				
+				animation-delay:0.5s;
+				
+			}
+			
+			.box span:nth-child(2){
+				
+				animation-delay:0.3s;
+				
+			}
+			
+			.box span:nth-child(3){
+				
+				animation-delay:0.1s;
+				
+			}
+			
+			@keyframes animate{
+
+				0%{
+					
+					opacity:0;
+					transform:rotate(45deg) translate(-20px, -20px);
+					
+				}
+				
+				50%{
+					
+					opacity:1;
+					
+				}
+				
+				100%{
+					
+					opacity:0;
+					transform:rotate(45deg) translate(20px, 20px);
+					
+				}
+				
+			}
+			
+			#scrollArrowBtn{
+				
+				background-color:transparent;
+				width:200px;
+				height:90px;
+				padding:15px;
+				position:absolute;
+				bottom:-40px;
+				left:50%;
+				border-radius:15px;
+				border:none;
+				
+			}
+			
+			#scrollArrowBtn:focus{
+				
+				outline:none;
+				
+			}
+			
+			#scrollBgBox{
+				
+				background-color:#343A40;
+				height:100px;
+				width:100%;
+				position:absolute;
+				bottom:0px;
+				text-align:center !important;
+				opacity:0.4;
 				
 			}
 			
 			
-		
-	
+			
+
+</style>

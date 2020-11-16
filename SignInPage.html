@@ -14,20 +14,20 @@
 
 		<script src="https://kit.fontawesome.com/160f8a0fd9.js" crossorigin="anonymous"></script>
 
-		<link  href="css/Home_Page.css" rel="stylesheet">	
+		<link href="css/navBar.css" rel="stylesheet">	
 		
-		<link href="css/navBar.css" rel="stylesheet">
+		<link href="css/SignInPage.css" rel="stylesheet">
 		
-		<link href="C:\Users\Aditya\Downloads\bootstrap-4.5.3-dist\css\bootstrap.min.css.map" rel="styleshee">
+		
 	
 	<style>
 	
 		body{
 		
-			font-size:17px;
-			font-weight:bold;
+			background-color:#F7F7F7;
 			font-family:'Montserrat', sans-serif;
-			background-color:#212529;
+			font-weight:bold;
+			font-size:17px;
 		
 		}
 	
@@ -39,14 +39,14 @@
 	
 	<body id="body">
 		
-		<nav class="navbar navbar-toggleable-md navbar-expand-md fixed-top" id="navBar" >
+		<nav class="navbar navbar-toggleable-md navbar-expand-sm fixed-top" id="navBar" >
   
-  			<a id="logoLink" class="form-inline" href="index.html" ><img id="logoImg" src="images/XTRM LOGO.png"></a>
+  			<a id="logoLink" href="index.html" ><img id="logoImg" src="images/XTRM LOGO.png"></div></a>
 
   			<div class="collapse navbar-collapse" id="navbarSupportedContent">
     
-				<ul class="navbar-nav form-inline" id="navbar-container">
-
+				<ul class="navbar-nav mr-auto container form-inline">
+      
     				<li class="nav-item dropdown" >
 						
 						<a class="nav-link dropdown-toggle navBarLink borderHover" id="rentalDropdown" onClick="ren()" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
@@ -119,115 +119,46 @@
 				
   			</div>
 			
-			<div>
-			
-				<button type="button" class="button" id="sgnInBtn" onclick="location.href='SignInPage.html';">Sign In</button>
-			
-			</div>
-
 		</nav>
-		
-		
+			
 		<div class="jumbotron" id="jumbotron_1">
 		
-			<p><img src="images/XTRM LOGO.png" id="formLogo"><h3 class="text-muted" Id="formLogoText">XTRMAUTO</h3></p>
-		
-			<div classs="" id="scrollBgBox">
+				<p><img src="images/XTRM LOGO.png" id="formLogo"><h3 class="text-muted" Id="formLogoText">XTRMAUTO</h3></p>
 			
-			</div>
-			
-			<div>
-			
-				<button class="box" id="scrollArrowBtn" type="button" onclick="smoothScroll(document.getElementById('jumbotron_2'))">
+			<form>
 				
-					<span></span>
-					<span></span>
-					<span></span>
+				<div class="container" id="formContainer">
+						
+					<div class="form-group">
+							
+						<label>Username: </label>
+							
+						<input class="form-control input" type="email" placeholder="Email id">
+							
+						<label>Password: </label>
+							
+						<input class="form-control input" type="password" placeholder="********">
+							
+						<button class="button bold" type="button" id="lgnBtn">Log In</button>
+							
+							<div class="separatingBorder"></div>
+							
+						<button class="button bold" type="button" id="sgnUpBtn" onclick="location.href='CreateAccountPage.html'">Create Account</button>
+							
+						<button class="button bold" type="button" id="frgtBtn" onclick="location.href='ForgotPasswordPage.html'">Forgot Password?</button>
+							
+					</div>
+						
+				</div>
 				
-				</button>
+			</form>
 			
-			</div>
-			
+		<button class="button" style="display:none;" onclick='body.scrollTo({top:0, behavior:"smooth"})';" id="goTopBtn">Top<img src="images/arrowmark.png" class="arrowMarkImg inline" style="transform: rotate(270deg); margin-left:15px; padding:2px 2px;"></button>
 			
 		</div>
-		
-		<div class="jumbotron" id="jumbotron_2">
-		
-			<h2>The All New Bronco is out</h2>
-			
-			<div class="container" id="buyMoreBtnCntr">
-			
-				<div>
-			
-					<button id="buyNowBtn" class="button bold " type="button">Buy Now<img class="inline arrowMarkImg" id="buyNowImg" src="images/arrowmark.png"></button>
-				
-				</div>
-		
-				<div>
-		
-					<button id="seeMoreBtn" class="button bold " type="button">See More<img class="inline arrowMarkImg" id="seeMoreImg" src="images/arrowmark.png"></button>
-
-				</div>
-			
-			</div>
-			
-		</div>
-	
-	
-		<footer class="panel-footer">
-		
-		<div class="container-fluid">
-			
-			<div class="row">
-				
-				<div id="hours" class="col-md-4">
-					
-					<span>Hours:</span><br>
-					
-					Sun-Thurs: 11:15am - 10:00pm<br>
-					Fri: 11:15am - 2:30pm<br>
-					Saturday Closed
-					
-					<hr class="d-md-none">
-				
-				</div>
-				
-				<div id="address" class="col-md-4">
-				
-					<span>Address:</span><br>
-					7105 Reistertown Road<br>
-					Baltimore, MD 21215
-					<p>* Delivery area within 3-4miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
-					
-					<hr class="d-md-none">
-				
-				</div>
-				
-				<div class="sclMedia">
-				
-					<span class="inline "  >XtrmAuto <a href="https://www.instagram.com/" ><img id="instaIcon" class="inline" src="Instagram.png"></a></span>
-					<br>
-					<span class="inline " >XtrmAuto <a href="https://www.twitter.com/" ><img id="twitterIcon" class="inline" src="Twitter.png"></a></span>
-					<br>
-					<span class="inline " >XtrmAuto <a href="https://www.facebook.com" ><img id="facebookIcon" class="inline" src="Facebool.png"></a></span>
-				
-				
-				</div>
-				
-			</div>
-			
-		</div>
-			
-		<button class="button" style="display:none;" onclick='body.scrollTo({top:0, behavior:"smooth"});' id="goTopBtn">Top<img src="images/arrowmark.png" class="arrowMarkImg inline" style="transform: rotate(270deg); margin-left:15px; padding:2px 2px;"></button>
-	
-		
-		
-		
-		
 		
 		
 		<script type="text/javascript">
-		
 		
 			document.getElementById("rentalDropdown").onclick = function(){
 			
@@ -253,26 +184,35 @@
 			
 			};
 			
+			
+		
+			document.getElementById("sgnUpBtn").onclick = function(){
+			
+				setTimeout("location.href = 'CreateAccountPage.html';", 500);
+			
+			};
+			
+			document.getElementById("frgtBtn").onclick = function(){
+			
+				setTimeout("location.href = 'ForgotPasswordPage.html';", 500);
+			
+			};
+			
 			document.getElementById("body").onscroll = function(){
 			
 				document.getElementById("goTopBtn").style.display = "block";
 				
 			};
+		
 			
-			document.getElementById("scrollArrowBtn").onmousedown = function(){
-			
-				var elmntToView = document.getElementById("jumbotron_2");
-				
-					elmntToView.scrollIntoView(); 
-			
-			}
+		
 		
 		
 		</script>
 			
 	</body>
-
+	
 </html>
-
-
-
+	
+	
+	

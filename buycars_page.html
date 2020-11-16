@@ -14,11 +14,14 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+		
+		<link href="css/navBar.css" rel="stylesheet">
+		
 		<style>
 
 		</style>
 		
-		<script src="js/buycars_page.js"></script>>
+		<script src="js/buycars_page.js"></script>
 		<script src="https://kit.fontawesome.com/a003c65f08.js" crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -26,26 +29,20 @@
 
 	</head>
 	
-	<body div="body">
+	<body id="body" >
 		
 		<!--**************************NAVBAR*****************************-->
 		<nav class="navbar navbar-toggleable-md navbar-expand-sm fixed-top" id="navBar" >
   
-  			<button type="button" id="logoLinkBtn" ><div id="logoLink" class=""><img src="images/XTRM LOGO.png"></div></button>
+  			<a id="logoLink" class="form-inline" href="index.html" ><img id="logoImg" src="images/XTRM LOGO.png"></a>
 
   			<div class="collapse navbar-collapse" id="navbarSupportedContent">
     
-				<ul class="navbar-nav mr-auto container form-inline">
-      
-	  				<li class="nav-item">
-       				
-						<a type="button" class="nav-link nav-item navBarLink "  id="homePage"><span class="sr-only">(current)</span></a>
-      				
-					</li>
+				<ul class="navbar-nav form-inline" id="navbar-container">
 
     				<li class="nav-item dropdown" >
 						
-						<a class="nav-link dropdown-toggle navBarLink borderHover" id="rentalDropdown" onClick="ren()" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+						<a class="nav-link dropdown-toggle navBarLink borderHover" id="rentalDropdown" onClick="ren()" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						
 							Rental Service
 						
@@ -65,7 +62,7 @@
 							
 							<div class="dropdown-divider"></div>
 							
-							<a class="dropdown-item " href="#">Car Comparison</a>
+							<a class="dropdown-item " href="CarComparisonPage.html">Car Comparison</a>
 							
         				</div>
 						
@@ -73,7 +70,7 @@
 
  					<li class="nav-item dropdown">
 
-        				<a class="nav-link  dropdown-toggle borderHover" id="buySellDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+        				<a class="nav-link  dropdown-toggle borderHover" id="buySellDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
 
           					Buy & Sell
 
@@ -81,7 +78,7 @@
 
         				<div class="dropdown-menu" id="buySellDropdownMenu" aria-labelledby="navbarDropdown">
 
-          					<a class="dropdown-item " href="#">4WD</a>
+          					<a class="dropdown-item " href="buycars_page.html">4WD</a>
 
 							<div class="dropdown-divider"></div>
 
@@ -117,7 +114,7 @@
 			
 			<div>
 			
-				<button type="button" class="bold" id="sgnInBtn">Sign In</button>
+				<button type="button" class="button" id="sgnInBtn" onclick="location.href='SignInPage.html';">Sign In</button>
 			
 			</div>
 
@@ -330,19 +327,32 @@
         			</div>
         			<!-- Modal body -->
         			<div class="modal-body text-center">Sign up to view your favorite cars across devices and get price drop alerts
-        				<div><a href="#" role="button" class="btn btn-outline-dark">Sign Up</a></div>
-          				<div id="login"><a href="#">Already have an Account? Login</a></div>
+        				<div><a href="CreateAccountPage.html" role="button" class="btn btn-outline-dark">Sign Up</a></div>
+          				<div id="login"><a href="SignInPage.html">Already have an Account? Login</a></div>
         			</div>
         			
       			</div>
     		</div>
   		</div>
 	</div>	
-	<script>
+	
+	
+	
+	
+	<script type="text/javascript">
+		
 		$(document).ready(function(){
  		 $('[data-toggle="tooltip"]').tooltip();
 		});
-</script>
+
+		document.getElementById("body").onscroll = function(){
+			
+				document.getElementById("goTopBtn").style.display = "block";
+				
+			};
+		
+		
+	</script>
 	</body>
 
 </html>

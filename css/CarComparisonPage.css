@@ -1,0 +1,193 @@
+body{
+	
+	background-color:#F7F7F7;
+	height: 1200px;
+	
+}
+
+#stretchJumbotron{
+	
+	background-image:url("../images/HomePage/gtrcar.jpg");
+	text-align:center;
+	margin-top:0px;
+	height:auto;
+	height:400px;
+	clear:both;
+	
+}
+
+#goTopBtn{
+	
+	position:fixed;
+	bottom:15px;
+	left:25;
+	width:100px;
+	
+}
+
+#mainCardContainer{
+	
+	text-align:center;
+	height:2000px;
+	
+	width:100%;
+	position:relative;
+	top:400px;
+	background-color:;
+	
+}
+
+.card{
+	
+	background-color:lightgrey;
+	
+}
+
+#cardContainer_1{
+	
+	text-align:center;
+	position:relative;
+	width:auto;
+	float:left;
+	margin-left:10px;
+	height:auto;
+	background-color:;
+
+}
+
+#cardContainer_2{
+	
+	text-align:center;
+	position:relative;
+	width:auto;
+	float:left;
+	margin-left:0px;
+	height:auto;
+	background-color:;
+
+}	
+	
+#cardContainer_3{
+	
+	text-align:center;
+	position:relative;
+	width:auto;
+	float:left;
+	margin-left:0px;
+	height:auto;
+	background-color:;
+
+}	
+
+#cardContainer_4{
+	
+	text-align:center;
+	position:relative;
+	width:auto;
+	float:left;
+	margin-left:10px;
+	height:auto;
+	background-color:;
+
+}	
+
+
+#cardContainer_5{
+	
+	text-align:center;
+	position:relative;
+	width:auto;
+	float:left;
+	margin-left:0px;
+	height:auto;
+	background-color:;
+
+}	
+
+#cardContainer_6{
+	
+	text-align:center;
+	position:relative;
+	width:auto;
+	float:left;
+	margin-left:0px;
+	height:auto;
+	background-color:;
+
+}	
+
+
+.button{
+
+	width:auto;
+	border:2px outset black;
+	border-radius:17px;
+	padding:10px 7px ;
+	background-color:transparent;
+	transition:0.4s;
+
+}
+
+.button:hover{
+	
+	border-color:lightgrey;
+	transition:0.7s;
+	font-size:17px;		
+	box-shadow:2px 5px 10px black;
+	background-image:linear-gradient(to bottom right, violet, orange);
+	
+}
+
+.button:active{
+	
+	box-shadow:0 2px 5px grey;
+	transform: translateY(4px);
+	transition:0.2s;
+	
+}
+
+#sgnInBtn{
+	
+	margin-top:-2px;
+	width:110px;			
+
+}
+
+#sgnInBtn:hover{
+	
+	background-image:linear-gradient(to bottom right, violet, orange);
+	
+}
+
+#cmprBtn{
+	
+	margin-top:30px;
+	width:250px;;
+	
+}
+
+.card{
+	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	padding:10px;
+	margin-left:20px;
+	margin-right:20px;
+	
+}
+
+.card-block{
+	
+	padding-top:10px;
+	padding-bottom:20px;
+	
+}
+
+.arrowMarkImg{
+
+	margin-left:5px;
+	height:20px;
+	width:20px;
+
+}
+
