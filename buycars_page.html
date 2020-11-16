@@ -1,0 +1,351 @@
+<html>
+
+	<head>
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Buy Cars</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/buycars_page.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+		<style>
+
+		</style>
+		
+		<script src="js/buycars_page.js"></script>>
+		<script src="https://kit.fontawesome.com/a003c65f08.js" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>	
+
+	</head>
+	
+	<body div="body">
+		
+		<!--**************************NAVBAR*****************************-->
+		<nav class="navbar navbar-toggleable-md navbar-expand-sm fixed-top" id="navBar" >
+  
+  			<button type="button" id="logoLinkBtn" ><div id="logoLink" class=""><img src="images/XTRM LOGO.png"></div></button>
+
+  			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+				<ul class="navbar-nav mr-auto container form-inline">
+      
+	  				<li class="nav-item">
+       				
+						<a type="button" class="nav-link nav-item navBarLink "  id="homePage"><span class="sr-only">(current)</span></a>
+      				
+					</li>
+
+    				<li class="nav-item dropdown" >
+						
+						<a class="nav-link dropdown-toggle navBarLink borderHover" id="rentalDropdown" onClick="ren()" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+						
+							Rental Service
+						
+						</a>
+						
+						<div class="dropdown-menu"  id="rentalDropdownMenu" aria-labelledby="navbarDropdown">
+
+          					<a class="dropdown-item" href="#">4WD</a>
+
+							<div class="dropdown-divider"></div>
+
+          					<a class="dropdown-item " href="#">2WD</a>
+
+          					<div class="dropdown-divider"></div>
+
+          					<a class="dropdown-item " href="#">Limo Service</a>
+							
+							<div class="dropdown-divider"></div>
+							
+							<a class="dropdown-item " href="#">Car Comparison</a>
+							
+        				</div>
+						
+        			</li>
+
+ 					<li class="nav-item dropdown">
+
+        				<a class="nav-link  dropdown-toggle borderHover" id="buySellDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+
+          					Buy & Sell
+
+        				</a>
+
+        				<div class="dropdown-menu" id="buySellDropdownMenu" aria-labelledby="navbarDropdown">
+
+          					<a class="dropdown-item " href="#">4WD</a>
+
+							<div class="dropdown-divider"></div>
+
+          					<a class="dropdown-item " href="#">2WD</a>
+
+          					<div class="dropdown-divider"></div>
+
+          					<a class="dropdown-item " href="#">Exotic Cars</a>
+							
+							<div class="dropdown-divider"></div>
+							
+							<a class="dropdown-item " href="#">Vintage Collection</a>
+							
+        				</div>
+
+      				</li>
+					
+					<li class="nav-item">
+      
+	  					<a href="#" class="nav-link navBarLink borderHover">Car Tuning & Mods</a>
+						
+        			</li>
+					
+					<li class="nav-item">
+      
+	  					<a href="#" class="nav-link navBarLink borderHover ">Car Care</a>
+						
+        			</li>
+	  
+    			</ul>
+				
+  			</div>
+			
+			<div>
+			
+				<button type="button" class="bold" id="sgnInBtn">Sign In</button>
+			
+			</div>
+
+		</nav>
+		
+		<script type="text/javascript">
+		
+		
+			document.getElementById("rentalDropdown").onmousedown = function(){
+			
+				document.getElementById("rentalDropdownMenu").style.display = "block";
+			
+			};
+			
+			document.getElementById("rentalDropdownMenu").onmouseleave = function(){
+			
+				document.getElementById("rentalDropdownMenu").style.display = "none";
+			
+			};
+			
+			document.getElementById("buySellDropdown").onmousedown = function(){
+			
+				document.getElementById("buySellDropdownMenu").style.display = "block";
+			
+			};
+			
+			document.getElementById("buySellDropdownMenu").onmouseleave = function(){
+			
+				document.getElementById("buySellDropdownMenu").style.display = "none";
+			
+			};		
+		</script>
+	<!--******************************NAVBAR ENDS********************************-->
+
+	<!--********************MAIN CONTENT********************-->
+	<div id="main-content" class="container.fluid">
+		<div>
+			<h1>Used Cars For Sale</h1>
+		</div>		
+
+		<div class="card-columns">
+
+			<!---------SWIFT DZIRE------------>
+  			<a href="#" class="card bg-light ">
+    			<img class="card-img-top" src="images/buycars-page/swift-dzire/1.jpg" alt="Suzuki-Swift-Dzire_Front">
+    			<div class="card-img-overlay">
+    				<span class="fa-stack fa-lg" data-toggle="modal" data-target=".myModal">
+  						<i class="fas fa-circle fa-stack-2x"></i>
+  						<i class="fas fa-heart fa-stack-1x" data-toggle="tooltip" data-placement="top" title="Add To Favourites"></i>
+					</span>
+    			</div>
+    			<div class="card-body">
+      				<h4 class="card-title">Maruthi Suzuki</h4>
+      				<h6 class="card-title">Swift Dzire LDi BS-IV<span class="badge badge-secondary">2016</span></h6>
+      				<div class="d-flex justify-content-between">	
+      					<h3 class="flex-fill border-right bold">₹ 4,50,000</h3>
+      					<span class="flex-fill text-center discount">Discount Available</span>
+      				</div>
+      				<hr>	
+    				<div class="card-text">
+    					<div><i class="fas fa-tachometer-alt fa-fw"></i><span>92,000 km</span></div>
+						<div><i class="fas fa-map-marker-alt fa-fw"></i><span>HSR Layout, Bengaluru </span></div>
+						<div><i class="fas fa-fill-drip fa-fw"></i><span>Blue Exterior</span></div>
+						<div><i class="fas fa-car-crash fa-fw"></i><span>No Accidents, 1 Owner</span></div>
+						<div><i class="fas fa-gas-pump fa-fw"></i><span>Diesel</span></div>
+    				</div>
+    			</div>
+  			</a>
+  			<!------------------------------->
+  			<a href="#" class="card bg-light ">
+    			<img class="card-img-top" src="images/buycars-page/swift-dzire/1.jpg" alt="Suzuki-Swift-Dzire_Front">
+    			<div class="card-img-overlay">
+    				<span class="fa-stack fa-lg" data-toggle="modal" data-target=".myModal">
+  						<i class="fas fa-circle fa-stack-2x"></i>
+  						<i class="fas fa-heart fa-stack-1x" data-toggle="tooltip" data-placement="top" title="Add To Favourites"></i>
+					</span>
+    			</div>
+    			<div class="card-body">
+      				<h4 class="card-title">Maruthi Suzuki</h4>
+      				<h6 class="card-title">Swift Dzire LDi BS-IV<span class="badge badge-secondary">2016</span></h6>
+      				<div class="d-flex justify-content-between">	
+      					<h3 class="flex-fill border-right bold">₹ 4,50,000</h3>
+      					<span class="flex-fill text-center discount">Discount Available</span>
+      				</div>
+      				<hr>	
+    				<div class="card-text">
+    					<div><i class="fas fa-tachometer-alt fa-fw"></i><span>92,000 km</span></div>
+						<div><i class="fas fa-map-marker-alt fa-fw"></i><span>HSR Layout, Bengaluru </span></div>
+						<div><i class="fas fa-fill-drip fa-fw"></i><span>Blue Exterior</span></div>
+						<div><i class="fas fa-car-crash fa-fw"></i><span>No Accidents, 1 Owner</span></div>
+						<div><i class="fas fa-gas-pump fa-fw"></i><span>Diesel</span></div>
+    				</div>
+    			</div>
+  			</a>
+  			
+  			<a href="#" class="card bg-light ">
+    			<img class="card-img-top" src="images/buycars-page/swift-dzire/1.jpg" alt="Suzuki-Swift-Dzire_Front">
+    			<div class="card-img-overlay">
+    				<span class="fa-stack fa-lg" data-toggle="modal" data-target=".myModal">
+  						<i class="fas fa-circle fa-stack-2x"></i>
+  						<i class="fas fa-heart fa-stack-1x" data-toggle="tooltip" data-placement="top" title="Add To Favourites"></i>
+					</span>
+    			</div>
+    			<div class="card-body">
+      				<h4 class="card-title">Maruthi Suzuki</h4>
+      				<h6 class="card-title">Swift Dzire LDi BS-IV<span class="badge badge-secondary">2016</span></h6>
+      				<div class="d-flex justify-content-between">	
+      					<h3 class="flex-fill border-right bold">₹ 4,50,000</h3>
+      					<span class="flex-fill text-center discount">Discount Available</span>
+      				</div>
+      				<hr>	
+    				<div class="card-text">
+    					<div><i class="fas fa-tachometer-alt fa-fw"></i><span>92,000 km</span></div>
+						<div><i class="fas fa-map-marker-alt fa-fw"></i><span>HSR Layout, Bengaluru </span></div>
+						<div><i class="fas fa-fill-drip fa-fw"></i><span>Blue Exterior</span></div>
+						<div><i class="fas fa-car-crash fa-fw"></i><span>No Accidents, 1 Owner</span></div>
+						<div><i class="fas fa-gas-pump fa-fw"></i><span>Diesel</span></div>
+    				</div>
+    			</div>
+  			</a>
+  		
+  			<a href="#" class="card bg-light ">
+    			<img class="card-img-top" src="images/buycars-page/swift-dzire/1.jpg" alt="Suzuki-Swift-Dzire_Front">
+    			<div class="card-img-overlay">
+    				<span class="fa-stack fa-lg" data-toggle="modal" data-target=".myModal">
+  						<i class="fas fa-circle fa-stack-2x"></i>
+  						<i class="fas fa-heart fa-stack-1x" data-toggle="tooltip" data-placement="top" title="Add To Favourites"></i>
+					</span>
+    			</div>
+    			<div class="card-body">
+      				<h4 class="card-title">Maruthi Suzuki</h4>
+      				<h6 class="card-title">Swift Dzire LDi BS-IV<span class="badge badge-secondary">2016</span></h6>
+      				<div class="d-flex justify-content-between">	
+      					<h3 class="flex-fill border-right bold">₹ 4,50,000</h3>
+      					<span class="flex-fill text-center discount">Discount Available</span>
+      				</div>
+      				<hr>	
+    				<div class="card-text">
+    					<div><i class="fas fa-tachometer-alt fa-fw"></i><span>92,000 km</span></div>
+						<div><i class="fas fa-map-marker-alt fa-fw"></i><span>HSR Layout, Bengaluru </span></div>
+						<div><i class="fas fa-fill-drip fa-fw"></i><span>Blue Exterior</span></div>
+						<div><i class="fas fa-car-crash fa-fw"></i><span>No Accidents, 1 Owner</span></div>
+						<div><i class="fas fa-gas-pump fa-fw"></i><span>Diesel</span></div>
+    				</div>
+    			</div>
+  			</a>
+  
+  			<a href="#" class="card bg-light ">
+    			<img class="card-img-top" src="images/buycars-page/swift-dzire/1.jpg" alt="Suzuki-Swift-Dzire_Front">
+    			<div class="card-img-overlay">
+    				<span class="fa-stack fa-lg" data-toggle="modal" data-target=".myModal">
+  						<i class="fas fa-circle fa-stack-2x"></i>
+  						<i class="fas fa-heart fa-stack-1x" data-toggle="tooltip" data-placement="top" title="Add To Favourites"></i>
+					</span>
+    			</div>
+    			<div class="card-body">
+      				<h4 class="card-title">Maruthi Suzuki</h4>
+      				<h6 class="card-title">Swift Dzire LDi BS-IV<span class="badge badge-secondary">2016</span></h6>
+      				<div class="d-flex justify-content-between">	
+      					<h3 class="flex-fill border-right bold">₹ 4,50,000</h3>
+      					<span class="flex-fill text-center discount">Discount Available</span>
+      				</div>
+      				<hr>	
+    				<div class="card-text">
+    					<div><i class="fas fa-tachometer-alt fa-fw"></i><span>92,000 km</span></div>
+						<div><i class="fas fa-map-marker-alt fa-fw"></i><span>HSR Layout, Bengaluru </span></div>
+						<div><i class="fas fa-fill-drip fa-fw"></i><span>Blue Exterior</span></div>
+						<div><i class="fas fa-car-crash fa-fw"></i><span>No Accidents, 1 Owner</span></div>
+						<div><i class="fas fa-gas-pump fa-fw"></i><span>Diesel</span></div>
+    				</div>
+    			</div>
+  			</a>
+  
+  			<a href="#" class="card bg-light ">
+    			<img class="card-img-top" src="images/buycars-page/swift-dzire/1.jpg" alt="Suzuki-Swift-Dzire_Front">
+    			<div class="card-img-overlay">
+    				<span class="fa-stack fa-lg" data-toggle="modal" data-target=".myModal">
+  						<i class="fas fa-circle fa-stack-2x"></i>
+  						<i class="fas fa-heart fa-stack-1x" data-toggle="tooltip" data-placement="top" title="Add To Favourites"></i>
+					</span>
+    			</div>
+    			<div class="card-body">
+      				<h4 class="card-title">Maruthi Suzuki</h4>
+      				<h6 class="card-title">Swift Dzire LDi BS-IV<span class="badge badge-secondary">2016</span></h6>
+      				<div class="d-flex justify-content-between">	
+      					<h3 class="flex-fill border-right bold">₹ 4,50,000</h3>
+      					<span class="flex-fill text-center discount">Discount Available</span>
+      				</div>
+      				<hr>	
+    				<div class="card-text">
+    					<div><i class="fas fa-tachometer-alt fa-fw"></i><span>92,000 km</span></div>
+						<div><i class="fas fa-map-marker-alt fa-fw"></i><span>HSR Layout, Bengaluru </span></div>
+						<div><i class="fas fa-fill-drip fa-fw"></i><span>Blue Exterior</span></div>
+						<div><i class="fas fa-car-crash fa-fw"></i><span>No Accidents, 1 Owner</span></div>
+						<div><i class="fas fa-gas-pump fa-fw"></i><span>Diesel</span></div>
+    				</div>
+    			</div>
+  			</a>
+		</div>
+
+		<!-------------- MODAL ----------->
+  		<div class="modal fade myModal">
+    		<div class="modal-dialog modal-dialog-centered">
+      			<div class="modal-content">
+      
+        			<!-- Modal Header -->
+        			<div class="modal-header">
+         				<h3 class="modal-title">sign in to xtrm</h3>
+          				<button type="button" class="close" data-dismiss="modal">&times;</button>
+        			</div>
+        			<!-- Modal body -->
+        			<div class="modal-body text-center">Sign up to view your favorite cars across devices and get price drop alerts
+        				<div><a href="#" role="button" class="btn btn-outline-dark">Sign Up</a></div>
+          				<div id="login"><a href="#">Already have an Account? Login</a></div>
+        			</div>
+        			
+      			</div>
+    		</div>
+  		</div>
+	</div>	
+	<script>
+		$(document).ready(function(){
+ 		 $('[data-toggle="tooltip"]').tooltip();
+		});
+</script>
+	</body>
+
+</html>
+
+
+
