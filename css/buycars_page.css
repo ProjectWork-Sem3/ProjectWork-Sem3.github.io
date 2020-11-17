@@ -10,6 +10,8 @@ body {
 			
 /***********NAV BAR**********************/			
 
+
+
 .button{
 	
 	background-color:transparent;
@@ -32,8 +34,9 @@ body {
 	background-image:linear-gradient(to bottom right, violet, orange);	
 
 }
-			
-			
+
+
+	
 /***********MAIN CONTENT******************/
 #main-content h1{
 	position: ;
