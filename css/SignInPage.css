@@ -17,7 +17,8 @@
 	
 	#jumbotron_1{
 		
-		background-image:url("../images/HomePage/G63.jpg");	
+		background-image:url("../images/HomePage/gtrcar.jpg");	
+		background-size:cover;
 		height:900px;
 		margin-bottom:0px;
 		text-align:center;
