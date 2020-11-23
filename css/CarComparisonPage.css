@@ -5,13 +5,18 @@ body{
 	
 }
 
-#stretchJumbotron{
+#goTopBtn{
+	
+	background-color:white;
+	
+}
+
+#jumbotron_1{
 	
 	background-image:url("../images/HomePage/gtrcar.jpg");
 	text-align:center;
-	margin-top:0px;
-	height:auto;
-	height:400px;
+	margin-top:80px;
+	height:300px;
 	clear:both;
 	
 }
@@ -23,99 +28,7 @@ body{
 	left:25;
 	width:100px;
 	
-}
-
-#mainCardContainer{
-	
-	text-align:center;
-	height:2000px;
-	
-	width:100%;
-	position:relative;
-	top:400px;
-	background-color:;
-	
-}
-
-.card{
-	
-	background-color:lightgrey;
-	
-}
-
-#cardContainer_1{
-	
-	text-align:center;
-	position:relative;
-	width:auto;
-	float:left;
-	margin-left:10px;
-	height:auto;
-	background-color:;
-
-}
-
-#cardContainer_2{
-	
-	text-align:center;
-	position:relative;
-	width:auto;
-	float:left;
-	margin-left:0px;
-	height:auto;
-	background-color:;
-
 }	
-	
-#cardContainer_3{
-	
-	text-align:center;
-	position:relative;
-	width:auto;
-	float:left;
-	margin-left:0px;
-	height:auto;
-	background-color:;
-
-}	
-
-#cardContainer_4{
-	
-	text-align:center;
-	position:relative;
-	width:auto;
-	float:left;
-	margin-left:10px;
-	height:auto;
-	background-color:;
-
-}	
-
-
-#cardContainer_5{
-	
-	text-align:center;
-	position:relative;
-	width:auto;
-	float:left;
-	margin-left:0px;
-	height:auto;
-	background-color:;
-
-}	
-
-#cardContainer_6{
-	
-	text-align:center;
-	position:relative;
-	width:auto;
-	float:left;
-	margin-left:0px;
-	height:auto;
-	background-color:;
-
-}	
-
 
 .button{
 
@@ -131,10 +44,11 @@ body{
 .button:hover{
 	
 	border-color:lightgrey;
+	background-color:transparent;
 	transition:0.7s;
 	font-size:17px;		
 	box-shadow:2px 5px 10px black;
-	background-image:linear-gradient(to bottom right, violet, orange);
+	background-image:linear-gradient(to bottom right, grey, silver);
 	
 }
 
@@ -154,33 +68,8 @@ body{
 }
 
 #sgnInBtn:hover{
-	
-	background-image:linear-gradient(to bottom right, violet, orange);
-	
-}
 
-#cmprBtn{
-	
-	margin-top:30px;
-	width:250px;;
-	
-}
 
-.card{
-	
-	border-bottom-right-radius:15px;
-	border-bottom-left-radius:15px;
-	padding:10px;
-	margin-left:20px;
-	margin-right:20px;
-	
-}
-
-.card-block{
-	
-	padding-top:10px;
-	padding-bottom:20px;
-	
 }
 
 .arrowMarkImg{
@@ -190,4 +79,167 @@ body{
 	width:20px;
 
 }
+
+li{
+	
+	list-style-type:none;
+	
+}
+
+.dropdown:focus{
+	
+	outline:none;
+	
+}
+
+#compareDropdown p{
+	
+	position:relative;
+	border-bottom:1px solid grey;
+	left:200px;
+	float:left;
+	margin:20px;
+	font-style:'Montserrat', sans-serif;
+
+}
+
+.separatingBorder{
+	
+	border-bottom:1px solid lightgrey;
+	width:75%;
+	margin-left:35px;
+	
+}
+
+#carDropdownBtn{
+	
+	margin-left:100px;
+	position:relative;
+	float:left;
+	
+}
+
+#carDropdown{
+	
+	background-color:dodgerblue;
+	border:none;
+	margin-left:20px;
+	color:black;
+	border-radius:5px;
+	margin-bottom:10px;
+	
+}
+
+#carDropdown:hover{
+	
+	background-image:none;
+	box-shadow:none;
+	
+}
+
+#carDropdownMenu{
+	
+	background-color:dodgerblue;
+	margin-left:161px;
+	width:300px;
+	text-align:center;
+	padding:0px;
+	
+}
+
+.dropdown-item{
+	
+	padding-bottom:10px;
+	padding-top:10px;
+	color:black;
+	
+}
+
+#carDropdownMenu a:hover{
+	
+	background-color:#1560BD;
+	
+}
+
+#compareCarDropdownBtn{
+	
+	position:relative;
+	float:right;
+	margin-right:200px;
+	
+}
+
+#compareCarDropdown{
+	
+	background-color:dodgerblue;
+	border:none;
+	margin-left:20px;
+	color:black;
+	border-radius:5px;
+	margin-bottom:10px;
+	
+}
+
+#compareCarDropdown:hover{
+	
+	background-image:none;
+	box-shadow:none;
+	
+}
+
+#compareCarDropdownMenu{
+
+	background-color:dodgerblue;
+	margin-left:159px;
+	width:300px;
+	text-align:center;
+	padding:0px;
+	
+}
+
+#compareCarDropdownMenu a:hover{
+	
+	background-color:#1560BD;
+	
+}
+	
+#sepBdr{
+	
+	text-align:center;
+	
+}
+	
+.verticalBorder{
+	
+	border-left:3px solid black;
+	height:600px;
+	position:absolute;
+	left:50%;
+	
+}	
+
+.compareContainer{
+	
+	background-color:white;
+	height:500px;
+	position:relative;
+	float:left;
+	margin-top:46px;
+	left:-110px;
+	border-radius:5px;
+	width:700px;
+	
+}
+
+#compareCntrBrdr{
+	
+	border-left:3px solid black;
+	height:490px;
+	bottom:5px;
+	position:absolute;
+	left:65%;
+	
+}
+	
+
 

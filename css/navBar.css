@@ -16,7 +16,7 @@
 			#logoLink{
 				
 				margin-left:-12px;
-				margin-right:16px;
+				margin-right:12px;
 				margin-top:1px;
 				
 			}
@@ -32,7 +32,7 @@
 			#navbarSupportedContent{
 				
 				position:relative;
-				padding-left:300px;
+				padding-left:250px;
 				text-align:center;
 				
 			}
@@ -53,6 +53,7 @@
 			.nav-item{
 				
 				margin-bottom:5px;
+				padding-right:50px;
 				
 			}
 			

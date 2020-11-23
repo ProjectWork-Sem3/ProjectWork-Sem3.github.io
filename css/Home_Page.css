@@ -14,430 +14,444 @@
 
 <style>
 
-			html{
-				
-				scroll-behavior:smooth;	
-				
-			}
+	html{
 		
-			#logoLink{
-				
-				margin-left:-15px;
-				margin-right:15px;
-				margin-top:-3px;
-				
-			}
-			
-			#navbarSupportedContent{
-				
-				position:relative;
-				padding-left:300px;
-				text-align:center;
-				
-			}
-			
-			#logoLink{
-				
-				margin-left:-12px;
-				margin-right:16px;
-				margin-top:1px;
-				
-			}
-			
-			.nav-link{
-				
-				color:black;
-				font-family:'Montserrat', sans-serif;
-				
-			}
-			
-			.nav-link:hover{
-				
-				color:black;
-				
-			}
-			
-			.nav-item{
-				
-				margin-bottom:5px;
-				
-			}
-			
-			.borderHover:hover{
-				
-				border-bottom:3px solid black;
-				transition:0.5s;
-				
-			}
-			
-			.container{
-				
-				text-align:center;
-				width:600px;
-				padding:10px 5px;
-				margin-left:140px;
-				
-			}
-			
-			.dropdown-menu{
-			
-				background-color:#F7F7F7;
-				border:none;
-				display:none;
-				
-			}
-			
-			.dropdown-item:hover{
-				
-				background-color:white;
-				
-			}
-			
-			.dropdown-divider{
-				
-				border-bottom:1px solid lightgrey;
-				
-			}
-			
-			#rentalDropdownMenu{
-				
-				display:none;
-				
-			}
-			
-			#logoImg{
-				
-				margin-left:-10px;
-				width: 150px;
-				height: 100px;
-				padding-bottom:4px;
-
-			}
-			
-			#jumbotron_1{
-				
-				background-image:url("../images/HomePage/porsche.jpg");
-				height:1100px;
-				background-size:cover;
-				margin-bottom:0px;
-				margin-top:-150px;
-				text-align:center;
-				border-radius:0px;
-				padding:0px;
-				
-			}
-			
-			#jumbotron_2{
-				
-				background-image:url("../images/HomePage/bronco.jpeg");
-				background-size:cover;
-				height:800px;
-				margin-bottom:0px;
-				text-align:center;
-				margin-right:0px;
-				border-radius:0px;
-				
-			}
-	
-			#formLogo{
+		scroll-behavior:smooth;	
 		
-				height:500px;
-				position:relative;
-				left:-400px;
-				top:200px;
-			
-			}
+	}
 	
-			#formLogoText{
+	body{
 		
-				position:relative;
-				left:-530px;
+		scroll-behavior:smooth;
+		
+	}
 	
-			}
-
-			
-			.jumbotron img{
-				
-				text-align:center;
-				margin-left:auto;
-				margin-right:auto;
-				
-			}
-			
-			.button{
-				
-				width:auto;
-				border:2px outset black;
-				border-radius:17px;
-				padding:10px 7px ;
-				background-color:transparent;
-				transition:0.4s;
-				
-			}
-			
-			.button:hover{
-				
-				background-color:white;
-				border-color:lightgrey;
-				transition:0.7s;
-				font-size:17px;
-				box-shadow:2px 5px 10px black;
-				
-			}
-			
-			.button:active{
-				
-				box-shadow:0 2px 5px grey;
-				transform: translateY(4px);
-				transition:0.2s;
-				
-			}
-			
-			#sgnInBtn{
-				
-				margin-top:-2px;
-				width:110px;
-				
-			}
-			
-			#sgnInBtn:hover{
-				
-				background-image:linear-gradient(to bottom right, violet, orange);
+	.borderHover:hover{
+		
+		border-bottom:3px solid black;
+		transition:0.5s;
+		
+	}
 	
-			}
-			
-			#buyNowBtn{
-				
-				float:left;
-				background-color:white;
-				
-			}
-			
-			#buyNowBtn:hover{
-				
-				background-color:lightgrey;
-				background-image:linear-gradient(to bottom right, violet, orange);
-				border-color:black;
-				
-			}
-			
-			#seeMoreBtn{
-				
-				background-color:white;
-				float:right;
-			
-			}
-			
-			#seeMoreBtn:hover{
-				
-				background-color:lightgrey;
-				border-color:black;
-				background-image:linear-gradient(to bottom right, violet, orange);
-				
-			}
-			
-			.arrowMarkImg{
-				
-				margin-left:5px;
-				height:20px;
-				width:20px;
-				
-			}
-			
-			#buyMoreBtnCntr{
-				
-				text-align:center;
-				background-color:transparent;
-				padding:20px;
-				width:400px;
-				height:100px;
-				position:absolute;
-				left:420px;
-				margin-top:500px;
-				
-			}
-			
-			#goTopBtn{
-				
-				position:fixed;
-				bottom:25px;
-				background-image:linear-gradient(to bottom right, #F0BD13, grey, #364763);
-				width:100px;
-				margin-left:25px;
-				
-			}
-			
-			.arrowMarkImgRotate{
-				
-				transform: rotate(90deg);
-				
-			}
+	.container{
+		
+		text-align:center;
+		width:600px;
+		padding:10px 5px;
+		margin-left:140px;
+		
+	}	
 	
-			.panel-footer {
+	.dropdown-menu{
+		
+		background-color:#F7F7F7;
+		border:none;
+		display:none;
+		
+	}	
+	
+	.dropdown-item:hover{
+		
+		background-color:white;
+		
+	}
+	
+	.dropdown-divider{
+		
+		border-bottom:1px solid lightgrey;
+		
+	}
+	
+	#rentalDropdownMenu{
+		
+		display:none;
+		
+	}
+	
+	#logoImg{
+		
+		margin-left:-10px;
+		width: 150px;
+		height: 100px;
+		padding-bottom:4px;
 
-				padding-top: 35px;
-				background-color:#343A40;
-				border-top: 0;
-				color:#DEFFFF;
-				margin-bottom:70px;;
+	}
+	
+	#jumbotron_1{
+		
+		background-image:url("../images/HomePage/porsche_resize.jpg");
+		height:910px;
+		background-size:cover;
+		margin-bottom:0px;
+		margin-top:-150px;
+		text-align:center;
+		border-radius:0px;
+		padding:0px;
+		
+	}
+	
+	#jumbotron_2{
+		
+		height:1000px;
+		background-size:cover;
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/HomePage/wheelbackground.jpg");
+		
+	}
+			
+	#jumbotron_2 p{
+		
+		color:white;
+		opacity:1;
+		
+	}
+			
+	#jumbotron_3{
+	
+		background-image:url("../images/HomePage/bronco.jpeg");
+		background-size:cover;
+		height:800px;
+		margin-bottom:0px;
+		text-align:center;
+		margin-right:0px;
+		border-radius:0px;
+		
+	}
+	
+	#formLogo{
 
-			}
+		height:500px;
+		position:relative;
+		left:-400px;
+		top:200px;
+	
+	}
+		
+	#formLogoText{
+		
+		position:relative;
+		left:-530px;	
 
-			#hours, #address {
-				
-				padding-left: 30px;
-				padding-right: 30px;
+	}
 
-			}
+	.jumbotron img{
+				
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+				
+	}
+			
+	.button{
+				
+		width:auto;
+		border:2px outset black;
+		border-radius:17px;
+		padding:10px 7px ;
+		background-color:transparent;
+		transition:0.4s;
+				
+	}
+			
+	.button:hover{
+				
+		background-color:white;
+		transition:0.7s;
+		font-size:17px;
+		box-shadow:2px 5px 10px black;
+		
+	}
+			
+	.button:active{
+		
+		box-shadow:0 2px 5px grey;
+		transform: translateY(4px);
+		transition:0.2s;
+		
+	}
+			
+	#sgnInBtn{
+		
+		margin-top:-2px;
+		width:110px;
+		border-color:black;
+		
+	}
+			
+	#sgnInBtn:hover{
+				
+		border-color:lightgrey;
+		background-image:linear-gradient(to bottom right, grey, lightgrey);
+	
+	}
+			
+	#buyNowBtn{
+		
+		float:left;
+		background-color:white;
+		
+	}
+			
+	#buyNowBtn:hover{
+			
+		background-image:linear-gradient(to bottom right, grey, lightgrey);				
+		border-color:silver;
+				
+	}
+			
+	#seeMoreBtn{
+		
+		background-color:white;
+		float:right;
+			
+	}
+			
+	#seeMoreBtn:hover{
+				
+		border-color:silver;
+		background-image:linear-gradient(to bottom right, grey, lightgrey);
+		
+	}
+			
+	.arrowMarkImg{
+				
+		margin-left:5px;
+		height:20px;
+		width:20px;
+		
+	}
+		
+	#buyMoreBtnCntr{
+		
+		text-align:center;
+		background-color:transparent;
+		padding:20px;
+		width:400px;
+		height:100px;
+		position:absolute;
+		left:420px;
+		margin-top:500px;
+		
+	}
+			
+	#goTopBtn{
+				
+		position:fixed;
+		bottom:15px;
+		background-color:white;
+		width:125px;
+		margin-left:25px;
+		
+	}
+			
+	#goTopBtn:hover{
+		
+		background-image:linear-gradient(to bottom right, grey, lightgrey);
+		
+	}
+	
+	.arrowMarkImgRotate{
+		
+		transform: rotate(90deg);
+		
+	}
 
-			#address p {
+	.panel-footer {
 
-				color: lightgrey;	
-				font-size: 13px;
-				
-			}
+		padding-top: 35px;
+		background-color:#343A40;
+		border-top: 0;
+		color:#DEFFFF;
+		margin-bottom:70px;;
 
-			#testimonials {
+	}
 
-				font-style: italic;	
-				padding-left: 30px;
-				padding-right: 30px;
+	#hours, #address {
+		
+		padding-left: 30px;
+		padding-right: 30px;
 
-			}
-			
-			.sclMedia{
-				
-				margin-left:300px;
-				
-				
-			}
-			
-			#instaIcon{
-				
-				width:30px;
-				height:30px;
-				margin-left:10px;
-				position:relative;
-				top:-2px;
-				
-			}
-			
-			#twitterIcon{
-				
-				width:30px;
-				height:30px;
-				margin-left:10px;
-				position:relative;
-				top:-2px;
-				
-			}
-			
-			#facebookIcon{
-				
-				width:20px;
-				height:20px;
-				margin-left:15px;				
-				position:relative;
-				top:-2px;
-				
-			}
-			
-			.box {
-				
-				transform: translate(-50%, -50%);
-				text-align:center;
-				
-			}
-			
-			.box span{
-				
-				display:block;
-				width:20px;
-				height:20px;
-				border-bottom:2px solid white;
-				border-right:2px solid white;
-				transform:rotate(45deg);
-				animation: animate 2s infinite;
-				margin-left:70px;
-				margin-top:-14px;
+	}
 
-			}
-			
-			.box span:nth-child(1){
-				
-				animation-delay:0.5s;
-				
-			}
-			
-			.box span:nth-child(2){
-				
-				animation-delay:0.3s;
-				
-			}
-			
-			.box span:nth-child(3){
-				
-				animation-delay:0.1s;
-				
-			}
-			
-			@keyframes animate{
+	#address p {
+	
+		color: lightgrey;	
+		font-size: 13px;
+		
+		}
 
-				0%{
-					
-					opacity:0;
-					transform:rotate(45deg) translate(-20px, -20px);
-					
-				}
-				
-				50%{
-					
-					opacity:1;
-					
-				}
-				
-				100%{
-					
-					opacity:0;
-					transform:rotate(45deg) translate(20px, 20px);
-					
-				}
-				
-			}
+	#testimonials {
+
+		font-style: italic;	
+		padding-left: 30px;
+		padding-right: 30px;
+	
+	}
 			
-			#scrollArrowBtn{
-				
-				background-color:transparent;
-				width:200px;
-				height:90px;
-				padding:15px;
-				position:absolute;
-				bottom:-40px;
-				left:50%;
-				border-radius:15px;
-				border:none;
-				
-			}
+	.sclMedia{
+	
+		margin-left:300px;
+		
+	}
+		
+	#instaIcon{
+		
+		width:30px;
+		height:30px;
+		margin-left:10px;
+		position:relative;
+		top:-2px;
+		
+	}
 			
-			#scrollArrowBtn:focus{
-				
-				outline:none;
-				
-			}
+	#twitterIcon{
+		
+		width:30px;
+		height:30px;
+		margin-left:10px;
+		position:relative;
+		top:-2px;
+		
+	}
 			
-			#scrollBgBox{
-				
-				background-color:#343A40;
-				height:100px;
-				width:100%;
-				position:absolute;
-				bottom:0px;
-				text-align:center !important;
-				opacity:0.4;
-				
-			}
+	#facebookIcon{
+		
+		width:20px;
+		height:20px;
+		margin-left:15px;				
+		position:relative;
+		top:-2px;
+		
+	}
+		
+	.box {
+		
+		transform: translate(-50%, -50%);
+		text-align:center;
+		
+	}
+	
+	.box span{
+		
+		display:block;
+		width:20px;
+		height:20px;
+		border-bottom:2px solid white;
+		border-right:2px solid white;
+		transform:rotate(45deg);
+		animation: animate 2s infinite;
+		margin-left:70px;
+		margin-top:-14px;	
+		
+	}
+		
+	.box span:nth-child(1){
+		
+		animation-delay:0.5s;
+		
+	}
+	
+	.box span:nth-child(2){
+		
+		animation-delay:0.3s;
+		
+	}
 			
+	.box span:nth-child(3){
+		
+		animation-delay:0.1s;
+		
+	}
+	
+	@keyframes animate{
+
+		0%{
 			
+			opacity:0;
+			transform:rotate(45deg) translate(-20px, -20px);
 			
+		}
+		
+		50%{
+			
+			opacity:1;
+			
+		}
+		
+		100%{
+			
+			opacity:0;
+			transform:rotate(45deg) translate(20px, 20px);
+			
+		}
+		
+	}
+			
+	#scrollArrowBtn{
+		
+		background-color:transparent;
+		width:200px;
+		height:90px;
+		padding:15px;
+		position:absolute;
+		bottom:-40px;
+		left:50%;
+		border-radius:15px;
+		border:none;
+		
+	}
+	
+	#scrollArrowBtn:focus{
+		
+		outline:none;
+		
+	}
+		
+	#scrollBgBox{
+		
+		background-color:#343A40;
+		height:100px;
+		width:100%;
+		position:absolute;
+		bottom:0px;
+		text-align:center !important;
+		opacity:0.5;
+		
+	}
+
+	#ftrCntr{
+		
+		
+		
+	}
+	
+	.verticalBorder{
+	
+		border-left:3px solid white;
+		height:600px;
+		position:absolute;
+		left:50%;
+	
+	}		
+	
+	#ftrVertBrdr{
+		
+		height:400px;
+		left:65%;
+		margin-top:150px;
+	
+	}
+	
+	#ftrHrztBrdr{
+		
+		height:400px;
+		left:65%;
+		margin-top:150px;
+		border-left:2px solid white;
+		
+	}
+
+
+
+
 
 </style>

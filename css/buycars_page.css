@@ -67,6 +67,7 @@ a.bg-light:hover, a.bg-light:active, a.bg-light:focus {
 
 .card img {
     width: 100%;
+	height:300px;
     background-repeat: no-repeat;
    	border-radius: .75em;
 }   
@@ -93,6 +94,10 @@ span .fa-stack-1x {
 span .fa-stack-1x:hover {
 	font-size: 20px;
 	color: #CB3D3D;
+}
+
+#modalCloseBtn:focus{
+	outline:none;
 }
 
 /********* CARD BODY ***************/

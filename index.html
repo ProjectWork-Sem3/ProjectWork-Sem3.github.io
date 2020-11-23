@@ -153,6 +153,20 @@
 		
 		<div class="jumbotron" id="jumbotron_2">
 		
+			
+			<p>text goes her. Here is some more text.</p>
+			<div class="container" id="ftrCntr">
+			
+				<div class="verticalBorder" id="ftrVertBrdr"></div>
+				<div class="horizontalBorder" id="ftrHrztBrdr"></div>
+			
+			</div>
+			
+		
+		</div>
+		
+		<div class="jumbotron" id="jumbotron_3">
+		
 			<h2>The All New Bronco is out</h2>
 			
 			<div class="container" id="buyMoreBtnCntr">
@@ -176,51 +190,51 @@
 	
 		<footer class="panel-footer">
 		
-		<div class="container-fluid">
-			
-			<div class="row">
+			<div class="container-fluid">
 				
-				<div id="hours" class="col-md-4">
+				<div class="row">
 					
-					<span>Hours:</span><br>
 					
-					Sun-Thurs: 11:15am - 10:00pm<br>
-					Fri: 11:15am - 2:30pm<br>
-					Saturday Closed
 					
-					<hr class="d-md-none">
-				
+					<div id="address" class="col-md-4">
+					
+						<span>Address:</span><br>
+						7105 Reistertown Road<br>
+						Baltimore, MD 21215
+						<p> </p>
+						
+						<hr class="d-md-none">
+					
+					</div>
+					
+					<div id="hours" class="col-md-4">
+						
+						<span></span><br>
+						
+						
+						
+						
+						<hr class="d-md-none">
+					
+					</div>
+					
+					<div class="sclMedia">
+					
+						<span class="inline ">XtrmAuto <a href="https://www.instagram.com/" ><img id="instaIcon" class="inline" src="images/Footer/Instagram.png"></a></span>
+						<br>
+						<span class="inline ">XtrmAuto <a href="https://www.twitter.com/" ><img id="twitterIcon" class="inline" src="images/Footer/Twitter.png"></a></span>
+						<br>
+						<span class="inline ">XtrmAuto <a href="https://www.facebook.com" ><img id="facebookIcon" class="inline" src="images/Footer/Facebool.png"></a></span>
+					
+					</div>
+					
 				</div>
 				
-				<div id="address" class="col-md-4">
-				
-					<span>Address:</span><br>
-					7105 Reistertown Road<br>
-					Baltimore, MD 21215
-					<p>* Delivery area within 3-4miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
-					
-					<hr class="d-md-none">
-				
-				</div>
-				
-				<div class="sclMedia">
-				
-					<span class="inline "  >XtrmAuto <a href="https://www.instagram.com/" ><img id="instaIcon" class="inline" src="images/Footer/Instagram.png"></a></span>
-					<br>
-					<span class="inline " >XtrmAuto <a href="https://www.twitter.com/" ><img id="twitterIcon" class="inline" src="images/Footer/Twitter.png"></a></span>
-					<br>
-					<span class="inline " >XtrmAuto <a href="https://www.facebook.com" ><img id="facebookIcon" class="inline" src="images/Footer/Facebool.png"></a></span>
-				
-				
-				</div>
+				<div class="footer-copyright text-center">&copy; Copyright XtrmAuto 2020</div>
 				
 			</div>
 			
-		</div>
-			
 		<button class="button" style="display:none;" onclick='body.scrollTo({top:0, behavior:"smooth"});' id="goTopBtn">Top<img src="images/arrowmark.png" class="arrowMarkImg inline" style="transform: rotate(270deg); margin-left:15px; padding:2px 2px;"></button>
-	
-		
 		
 		
 		
@@ -261,10 +275,9 @@
 			
 			document.getElementById("scrollArrowBtn").onmousedown = function(){
 			
-				var elmntToView = document.getElementById("jumbotron_2");
+				window.scrollTo({top:1800px, behavior:'smooth'});
 				
-					elmntToView.scrollIntoView(); 
-			
+				
 			}
 		
 		

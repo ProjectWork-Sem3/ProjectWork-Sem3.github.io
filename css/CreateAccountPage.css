@@ -11,25 +11,11 @@
 	
 	.bold{
 		
-		
 		font-family:'Montserrat', sans-serif;
+		font-weight:bold;
 		
 	}
 	
-	#logoLink{
-		
-		margin-left:-6px;
-		margin-right:6px;
-		
-	}
-	
-	#navbarSupportedContent{
-	
-		position:relative;
-		padding-left:120px;
-		text-align:center;
-		
-	}
 	
 	#jumbotron_1{
 		
@@ -41,21 +27,6 @@
 		border-radius:0px;	
 		
 	}
-	
-	#formLogoCntr{
-		
-		background-color:white;	
-		text-align:center;
-		width:200px;
-		height:800px;
-		position:absolute;
-		left:-340px;
-		top:-60px;
-		float:left;
-		
-	}
-	
-	
 
 	#formContainer{
 		
@@ -94,7 +65,7 @@
 		
 		width-min:100px;
 		width:auto;
-		border:2px outset white;
+		border:2px outset black;
 		border-radius:17px;
 		padding:10px 7px ;
 		background-color:transparent;
@@ -108,7 +79,7 @@
 		transition:0.7s;
 		font-size:17px;		
 		box-shadow:2px 5px 10px black;
-		background-image:linear-gradient(to bottom right, violet, orange);
+		background-image:linear-gradient(to bottom right, grey, silver);
 	
 	}
 	
@@ -153,13 +124,20 @@
 	}
 	
 	#goTopBtn{
-		
+	
 		position:fixed;
 		bottom:25px;
-		background-image:linear-gradient(to bottom right, violet, orange);
+		background-color:white;
+		background-image:linear-gradient(to bottom right, grey, silver);
 		width:100px;
 		left:25px;
+		
+	}
 	
+	#goTopBtn:hover{
+		
+		border-color:silver;
+		
 	}
 	
 	.arrowMarkImgRotate{
@@ -168,5 +146,4 @@
 	
 	}
 	
-
 </style>
