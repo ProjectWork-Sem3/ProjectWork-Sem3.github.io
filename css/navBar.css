@@ -126,7 +126,7 @@
 				transition:0.7s;
 				font-size:17px;
 				box-shadow:2px 5px 10px black;
-				background-image:linear-gradient(to bottom right, grey, silver) !important;
+				background-image:linear-gradient(to bottom right, grey, silver) ;
 				
 			}
 			
