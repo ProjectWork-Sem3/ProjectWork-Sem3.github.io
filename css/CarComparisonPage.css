@@ -21,6 +21,12 @@ body{
 	
 }
 
+#jumbotron_2{
+	
+	background-image: linear-gradient(to bottom right, grey, lightgrey, silver);
+	
+}
+
 #goTopBtn{
 	
 	position:fixed;
@@ -38,6 +44,7 @@ body{
 	padding:10px 7px ;
 	background-color:transparent;
 	transition:0.4s;
+	box-shadow: 2px 5px 8px grey;
 
 }
 
@@ -211,8 +218,10 @@ li{
 	
 .verticalBorder{
 	
-	border-left:3px solid black;
-	height:600px;
+	border-left:1px solid black;
+	height:100%;
+	margin-top:30px;
+	margin-bottom:30px;
 	position:absolute;
 	left:50%;
 	
@@ -240,6 +249,140 @@ li{
 	left:65%;
 	
 }
+
+.card{
 	
+	position:relative;
+	float:left;
+	width:600px;
+	margin-left:-100px;
+	margin-top:100px;
+	text-align:left;
+	padding-bottom:50px;
+	
+}
+
+#card_1{
+	
+	display:none;
+	
+}
+
+#card_2{
+	
+	display:none;
+	
+}
+
+#card_3{
+	
+	display:none;
+	
+}
+
+#card_4{
+	
+	display:none;
+	
+}
+
+#card_5{
+	
+	display:none;
+	
+}
+
+#card_6{
+	
+	display:none;
+	
+}
+
+#compareCard_1{
+	
+	display:none;
+	position:relative;
+	float:right;
+	margin-top:-10px;
+	padding-left:50px;
+	
+}
+
+#compareCard_2{
+	
+	display:none;
+	position:relative;
+	float:right;
+	margin-top:-10px;
+	padding-left:50px;
+}
+
+#compareCard_3{
+	
+	display:none;
+	position:relative;
+	float:right;
+	margin-top:-10px;
+	padding-left:50px;
+	
+}
+
+#compareCard_4{
+	
+	display:none;
+	position:relative;
+	float:right;
+	margin-top:-10px;
+	padding-left:50px;
+	
+}
+
+#compareCard_5{
+	
+	display:none;
+	position:relative;
+	float:right;
+	margin-top:-10px;
+	padding-left:50px;
+	
+}
+
+#compareCard_6{
+	
+	display:none;
+	position:relative;
+	float:right;
+	margin-top:-10px;
+	padding-left:50px;
+	
+}
+
+
+
+/********************************/
+
+.compareCardHeader{
+	
+	color:black;
+	
+}
+
+.value-spec{
+	
+	padding-right:50px !important;
+	text-align:center;
+	
+}
+
+table, tr, td{
+	
+	color:grey;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-bottom:1px solid lightgrey;
+	
+}
+
+/********************************/
 
 
