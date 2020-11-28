@@ -21,18 +21,6 @@ body {
 	font-weight:bold;
 	
 }
-
-#sgnInBtn{
-	
-	margin-top:-2px;
-	width:110px;
-}
-
-#sgnInBtn:hover{
-	
-	background-image:linear-gradient(to bottom right, violet, orange);	
-
-}
 /*********MAIN CONTENT**********/
  
  .row {
@@ -246,7 +234,42 @@ div.dropdown-menu.location.show:hover {
 	box-shadow: 2px 2px 5px #dee2e6;
 }
 
+
 /******END OF MAIN CONTENT******/
+
+/*******MODAL******************/
+.modal-body {
+	position: relative;
+	text-align: center;
+	padding-top: 75px;
+}
+
+.modal-content {
+	width: 360px;
+	height: 220px;
+}
+.modal-body a .btn{
+	margin: 10px;
+	border: 2px solid  #dee2e6;
+	border-radius: 16px;
+	padding: 6px 50px 6px 50px;
+	opacity: .7;
+	background-color: #dee2e6;
+	transition: opacity .4s,border-color .6s;
+}
+
+.modal-body a .btn:hover, .modal-body a .btn:active, .modal-body a .btn:focus{
+	opacity: 1;
+	box-shadow: 2px 2px 5px #dee2e6;
+	border-color: black;
+}
+
+.modal-body img {
+	position: absolute;
+	top: -105px;
+	left: 78px;
+}
+
 
 /**********FOOTER**********/
 .panel-footer {
@@ -254,7 +277,7 @@ div.dropdown-menu.location.show:hover {
   	left: 0;
   	bottom: 0;
   	width: 100%;
-  	padding: 15px 25px 15px 25px;
+  	padding: 12px 20px 12px 20px;
 	background-color: #333333;
 	border-top: 0;
 }
@@ -266,8 +289,10 @@ div.dropdown-menu.location.show:hover {
     letter-spacing: 1px;
     font-size: .8em;
     border-radius: 16px;
-    padding: 6px 150px 6px 150px;
+    width: 350px;
+    padding: 8px 8px 6px 8px;
     margin: 8px 0 8px 0;
+    transition: background-color .6s;
 
 }
 
@@ -291,20 +316,29 @@ div.dropdown-menu.location.show:hover {
 
 #rentprice {
 	font-size: 1.3em;
-	padding-left: 50px;
-	padding-right: 150px;
+	padding-left: 100px;
+	padding-right: 100px;
 	border-right: 1px solid #66686B;
+	border-left: 1px solid #66686B;
 	opacity: .9;
 }
 
 #rentprice>span {
 	font-size: .7em;
 	text-align: center;
+	padding-left: 5px;
 }
 
 span#xsmall {
 	font-size: .6em;
 }
 
+#carmodel {
+	padding-top: 4px;
+	font-size: 1.1em;
+}
+#carmodel span {
+	font-size: .8em;
+}
 
 /******END OF FOOTER*******/
