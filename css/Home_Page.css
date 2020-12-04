@@ -8,11 +8,31 @@
 
 		<script src="https://kit.fontawesome.com/160f8a0fd9.js" crossorigin="anonymous"></script>
 		
-		
-		
-	
+
+
+@font-face {
+    font-family: 'scare_armsregular';
+    src: url('webfontkit-20201203-031508/scarearms-lxj4-webfont.woff2') format('woff2'),
+         url('webfontkit-20201203-031508/scarearms-lxj4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}	
+
+
+@font-face {
+    font-family: 'world_conflictregular';
+    src: url('fonts/worldconflict/worldconflictregular-p26r-webfont.woff2') format('woff2'),
+         url('fonts/worldconflict/worldconflictregular-p26r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 <style>
+
+
 
 	html{
 		
@@ -89,6 +109,15 @@
 		padding:0px;
 		margin-right:0px;
 		
+	}
+
+	h1 {
+		font-family: 'world_conflictregular';
+		position: absolute;
+		top: 125px;
+		left: 110px;
+		font-size: 140px;
+		opacity: .9;
 	}
 	
 	#jumbotron_2{
@@ -322,6 +351,7 @@
 		
 	}
 	
+<<<<<<< HEAD
 	#jumbotron_3 h3{
 		
 		color:#FFF;
@@ -388,6 +418,8 @@
 		left:-530px;	
 
 	}
+=======
+>>>>>>> 9fca64a43b156e9257d7c880e17808494a35521b
 
 	.jumbotron img{
 		

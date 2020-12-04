@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'rustico_-_v2regular';
+    src: url('webfontkit-20201128-083655/rustico-v2-regular-webfont.woff2') format('woff2'),
+         url('webfontkit-20201128-083655/rustico-v2-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'atmosphere_script_typefaceRg';
+    src: url('../atmosphere/atmosphere-regular-webfont.woff2') format('woff2'),
+         url('../atmosphere/atmosphere-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.bold {
+	font-weight: bold;
+}
+
+body {
+	background: url("../images/vintage/background.jpg") ;
+}
+
+.parallax1 {
+	background-image: url("../images/vintage/parallax1.jpg");
+  	min-height: 550px; 
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+.caption1 {
+	font-family: rustico_-_v2regular, sans-serif;
+	color: white;
+	text-align: center;
+	position: absolute;
+	left: 30px;
+	top: 90px;
+
+}
+
+h1 {
+	font-size: 95px;
+}
+
+.quote1 {
+	font-family: rustico_-_v2regular, sans-serif;
+	font-size: 35px;
+	position: relative;
+	color: white;
+	left: -500px;
+	top: 230px;
+	text-align: center;
+}
+
+.container-fluid {
+	background-image: url("../images/vintage/background.jpg") ;
+	height: 100%;
+}
+
+.row {
+	padding: 40px 15px 20px 15px;
+
+}
+
+
+.card {
+	border-radius: 0;
+	margin: 10px;
+	height: 330px;
+	width: 480px;
+	perspective: 600px;
+	position: relative;
+	background-image: url("../images/vintage/black1.jpeg") ;
+	transition: transform 1s, background-image .45s;
+	transform-style: preserve-3d;
+	transform-origin: center right;
+}
+
+.card_face {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	backface-visibility: hidden;
+}
+
+.card_face--front {
+
+}
+
+.card_face--back {
+	color: white;
+	background-color: black;
+	transform: rotateY(180deg);
+}
+.card.is-flipped {
+	transform: translateX(-100%) 
+	rotateY(-180deg);
+}
+.card1:hover {
+	background-image: url("../images/vintage/color1.jpeg");
+}
+.card2 {
+	filter: grayscale(100%);
+}
+.card2:hover {
+	filter: grayscale(0);
+}
