@@ -29,10 +29,10 @@ body {
 	width:110px;
 }
 
-#sgnInBtn:hover{
+.dropdown-item{
 	
-		
-
+	font-family:'Montserrat', sans-serif;
+	
 }
 
 

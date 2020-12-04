@@ -115,6 +115,7 @@ li{
 	border-bottom:1px solid lightgrey;
 	width:75%;
 	margin-left:35px;
+	margin-top:0px !important;
 	
 }
 
@@ -219,7 +220,7 @@ li{
 .verticalBorder{
 	
 	border-left:1px solid black;
-	height:100%;
+	height:1500px;
 	margin-top:30px;
 	margin-bottom:30px;
 	position:absolute;
@@ -252,49 +253,68 @@ li{
 
 .card{
 	
-	position:relative;
-	float:left;
-	width:600px;
-	margin-left:-100px;
-	margin-top:100px;
-	text-align:left;
-	padding-bottom:50px;
+	
+}
+
+.card img{
+	
+	height:350px;
 	
 }
 
 #card_1{
 	
 	display:none;
+	height:1420px !important;
 	
 }
 
 #card_2{
 	
 	display:none;
+	height:1420px !important;
 	
 }
 
 #card_3{
 	
 	display:none;
+	height:1420px !important;
 	
 }
 
 #card_4{
 	
 	display:none;
+	height:1420px !important;
 	
 }
 
 #card_5{
 	
 	display:none;
+	height:1420px !important;
 	
 }
 
 #card_6{
 	
 	display:none;
+	height:1420px !important;
+	
+}
+
+#card_7{
+	
+	display:none;
+	height:1420px !important;
+	
+}
+
+#card_8{
+	
+	display:none;
+	height:1420px !important;
 	
 }
 
@@ -303,8 +323,8 @@ li{
 	display:none;
 	position:relative;
 	float:right;
-	margin-top:-10px;
 	padding-left:50px;
+	height:1420px !important;
 	
 }
 
@@ -312,9 +332,10 @@ li{
 	
 	display:none;
 	position:relative;
-	float:right;
-	margin-top:-10px;
+	float:right;	
 	padding-left:50px;
+	height:1420px !important;
+
 }
 
 #compareCard_3{
@@ -322,8 +343,8 @@ li{
 	display:none;
 	position:relative;
 	float:right;
-	margin-top:-10px;
 	padding-left:50px;
+	height:1420px !important;
 	
 }
 
@@ -332,8 +353,8 @@ li{
 	display:none;
 	position:relative;
 	float:right;
-	margin-top:-10px;
 	padding-left:50px;
+	height:1420px !important;
 	
 }
 
@@ -342,8 +363,8 @@ li{
 	display:none;
 	position:relative;
 	float:right;
-	margin-top:-10px;
 	padding-left:50px;
+	height:1420px !important;
 	
 }
 
@@ -352,11 +373,80 @@ li{
 	display:none;
 	position:relative;
 	float:right;
-	margin-top:-10px;
 	padding-left:50px;
+	height:1420px !important;
 	
 }
 
+#compareCard_7{
+	
+	display:none;
+	position:relative;
+	float:right;
+	padding-left:50px;
+	height:1420px !important;
+	
+}
+
+#compareCard_8{
+	
+	display:none;
+	position:relative;
+	float:right;
+	text-align:left;
+	padding-left:50px;
+	height:1420px !important;
+	
+}
+
+#mainCardContainer{
+	
+	position:relative;
+	float:left;
+	height:1430px;
+	left:-50px;
+	
+}
+
+#mainCompareCardContainer{
+	
+	position:relative;
+	float:right;
+	height:1430px;
+	right:80px;
+	width:620px;
+	
+}
+
+#mainCardContainer td{
+	
+	width:30px !important;
+	position:relative;
+	right:-30px;
+	
+}
+
+#mainCardContainer tr{
+	
+	margin-left:-5px;
+	margin-right:40px !important;
+	
+}
+
+#mainCompareCardContainer td{
+	
+	width:30px !important;
+	position:relative;
+	right:-30px;
+	
+}
+
+#mainCompareCardContainer{
+	
+	margin-left:-5px;
+	margin-right:40px !important;
+	
+}
 
 
 /********************************/
@@ -382,6 +472,7 @@ table, tr, td{
 	border-bottom:1px solid lightgrey;
 	
 }
+
 
 /********************************/
 

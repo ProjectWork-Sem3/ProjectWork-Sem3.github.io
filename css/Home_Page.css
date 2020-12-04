@@ -87,6 +87,7 @@
 		text-align:center;
 		border-radius:0px;
 		padding:0px;
+		margin-right:0px;
 		
 	}
 	
@@ -95,25 +96,280 @@
 		height:1000px;
 		background-size:cover;
 		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/HomePage/wheelbackground.jpg");
+		margin-bottom:0px;
+		margin-top:0px;
 		
 	}
-			
-	#jumbotron_2 p{
+	
+	#txtCntr_1{
 		
-		color:white;
-		opacity:1;
+		color:#d3d3d3;
+		position:relative;
+		text-align:left;
+		float:left;
 		
 	}
-			
+	
+	#txtCntr_2{
+		
+		color:#d3d3d3;
+		position:relative;
+		text-align:left;
+		float:left;
+		
+	}
+	
+	#txtCntr_3{
+		
+		color:#d3d3d3;
+		position:relative;
+		text-align:left;
+		float:left;
+		
+	}
+	
+	#txtCntr_4{
+		
+		color:#d3d3d3;
+		position:relative;
+		text-align:left;
+		float:left;
+		
+	}
+	
+	.swiper-container {
+		
+      	width: 100%;
+		height:410px;
+      	padding-top: 20px;
+     	padding-bottom: 20px;
+		background-color:transparent;
+		position:absolute;
+		bottom:-140%;
+		margin-bottom:0px;
+		margin-top:0px;
+		
+    }
+
+    .swiper-slide {
+		
+		width:550px !important;
+		height:300px !important;
+		background-color:#fff;
+    }
+	
+	.swiper-slide img{
+		
+		height:300px !important;
+		width:550px !important;
+		background-size:cover;
+		position:relative;
+		
+	}
+	
+	#ftrCntr{
+		
+		width:700px;
+		text-align:center;
+		padding:15px;
+		height:400px;
+		background-color:transparent;
+		position:absolute;
+		right:0px;
+		
+	}
+	
+	#ftrVertBrdr{
+		
+		height:400px;
+		position:absolute;
+		left:50%;
+		top:0px;
+		float:left;
+	
+	}
+	
+	#ftrHrztBrdr{
+		
+		height:600px;
+		position:relative;
+		margin-top:220px;
+		transform:rotate(90deg);
+		border-left:1px solid white;
+		
+	}
+	
+	.swipeModel{
+		
+
+	}
+	
+	#tpLftSpn{
+		
+		float:left;
+		color:#d3d3d3;
+		margin-left:80px;
+		margin-top:30px;
+		
+	}
+	
+	#tpLftSpn h3{
+		
+		font-size:18px;
+		
+	}
+	
+	#tpRghtSpn{
+		
+		float:right;
+		
+	}
+	
+	#tpRghtSpn h3{
+		
+		font-size:18px;
+		margin-left:60px;
+		color:#d3d3d3;
+		
+	}
+	
+	#tpRghtSpn img{
+		
+		width:120px;
+		height:120px;
+		position:relative;
+		margin-left:100px;
+		margin-top:-8px;
+		
+	}
+	
+	#btLftSpn{
+		
+		position:relative;
+		float:left;
+		margin-left:115px;
+		top:;		
+		
+	}
+	
+	#btLftSpn h3{
+		
+		position:relative;
+		top:-600px;
+		font-size:18px;
+		color:#d3d3d3;
+		margin-left:-15px;
+		
+	}
+	
+	#btLftSpn img{
+		
+		width:120px;
+		height:120px;
+		position:relative;
+		float:left;
+		top:-600px;
+		
+	}
+	
+	#btRghtSpn img{
+		
+		width:120px;
+		height:120px;
+		position:relative;
+		float:right;
+		margin-right:100px;
+		margin-top:-75px;
+		
+	}
+	
+	#btRghtSpn h3{
+		
+		color:#d3d3d3;
+		posiition:absolute;
+		float:right;
+		margin-right:-130px;
+		margin-top:40px;
+		font-size:18px;
+		
+	}
+	
+	video{
+		
+		width:1500px;
+		height:600px;
+		position:relative;
+		float:left;
+		
+	}
+	
+	video:focus{
+		
+		outline:none;
+		
+	}
+	
 	#jumbotron_3{
 	
-		background-image:url("../images/HomePage/bronco.jpeg");
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8));
 		background-size:cover;
-		height:800px;
+		background-color:#000;
+		height:700px;
 		margin-bottom:0px;
-		text-align:center;
-		margin-right:0px;
+		text-align:center !important;
+		margin:0 auto;
 		border-radius:0px;
+		
+	}
+	
+	#jumbotron_3 h3{
+		
+		color:#FFF;
+		display:none;
+	}
+	
+	.parallax {
+  
+		background-image: url("img_parallax.jpg");
+		height: 400px; 
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+	
+	#jumbotron_4{
+		
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("../images/ParallaxJumbotrons/appDownload_resize.jpg");
+		background-size:cover;
+		margin-right:0px;
+		margin-bottom:0px;
+		height:300px;
+		
+	}
+	
+	#jumbotron_4 h3{
+		
+		color:white;
+		
+	}
+	
+	#jumbotron_4 img{
+		
+		width:200px;
+		height:65px;
+		position:relative;
+		float:right;
+		margin-right:0px;
+		
+	}
+	
+	#appstoreicon{
+		
+		height:77px !important;
+		margin-left:20px;
+		margin-top:-6px !important;
 		
 	}
 	
@@ -134,33 +390,33 @@
 	}
 
 	.jumbotron img{
-				
+		
 		text-align:center;
 		margin-left:auto;
 		margin-right:auto;
-				
-	}
-			
+		
+	}		
+	
 	.button{
-				
+		
 		width:auto;
 		border:2px outset black;
 		border-radius:17px;
 		padding:10px 7px ;
 		background-color:transparent;
 		transition:0.4s;
-				
+		
 	}
-			
+		
 	.button:hover{
-				
+		
 		background-color:white;
 		transition:0.7s;
 		font-size:17px;
 		box-shadow:2px 5px 10px black;
 		
 	}
-			
+		
 	.button:active{
 		
 		box-shadow:0 2px 5px grey;
@@ -168,7 +424,7 @@
 		transition:0.2s;
 		
 	}
-			
+	
 	#sgnInBtn{
 		
 		margin-top:-2px;
@@ -176,44 +432,16 @@
 		border-color:black;
 		
 	}
-			
+
 	#sgnInBtn:hover{
-				
+		
 		border-color:lightgrey;
 		background-image:linear-gradient(to bottom right, grey, lightgrey);
 	
 	}
-			
-	#buyNowBtn{
 		
-		float:left;
-		background-color:white;
-		
-	}
-			
-	#buyNowBtn:hover{
-			
-		background-image:linear-gradient(to bottom right, grey, lightgrey);				
-		border-color:silver;
-				
-	}
-			
-	#seeMoreBtn{
-		
-		background-color:white;
-		float:right;
-			
-	}
-			
-	#seeMoreBtn:hover{
-				
-		border-color:silver;
-		background-image:linear-gradient(to bottom right, grey, lightgrey);
-		
-	}
-			
 	.arrowMarkImg{
-				
+		
 		margin-left:5px;
 		height:20px;
 		width:20px;
@@ -222,19 +450,18 @@
 		
 	#buyMoreBtnCntr{
 		
-		text-align:center;
+		text-align:center ;
 		background-color:transparent;
 		padding:20px;
 		width:400px;
 		height:100px;
-		position:absolute;
-		left:420px;
+		position:relative;
 		margin-top:500px;
 		
 	}
-			
+	
 	#goTopBtn{
-				
+		
 		position:fixed;
 		bottom:15px;
 		background-color:white;
@@ -242,7 +469,7 @@
 		margin-left:25px;
 		
 	}
-			
+	
 	#goTopBtn:hover{
 		
 		background-image:linear-gradient(to bottom right, grey, lightgrey);
@@ -277,7 +504,7 @@
 		color: lightgrey;	
 		font-size: 13px;
 		
-		}
+	}
 
 	#testimonials {
 
@@ -286,38 +513,41 @@
 		padding-right: 30px;
 	
 	}
-			
-	.sclMedia{
 	
-		margin-left:300px;
+	.sclMedia a{
+	
+		color:#DEFFFF;
 		
 	}
+	
+	.sclMedia a:hover{
 		
+		text-decoration:none;
+		
+	}
+	
 	#instaIcon{
 		
 		width:30px;
 		height:30px;
-		margin-left:10px;
 		position:relative;
 		top:-2px;
 		
 	}
-			
+
 	#twitterIcon{
 		
 		width:30px;
 		height:30px;
-		margin-left:10px;
 		position:relative;
 		top:-2px;
 		
 	}
-			
+		
 	#facebookIcon{
 		
 		width:20px;
 		height:20px;
-		margin-left:15px;				
 		position:relative;
 		top:-2px;
 		
@@ -340,7 +570,7 @@
 		transform:rotate(45deg);
 		animation: animate 2s infinite;
 		margin-left:70px;
-		margin-top:-14px;	
+		margin-top:-10px;	
 		
 	}
 		
@@ -355,7 +585,7 @@
 		animation-delay:0.3s;
 		
 	}
-			
+		
 	.box span:nth-child(3){
 		
 		animation-delay:0.1s;
@@ -393,7 +623,7 @@
 		height:90px;
 		padding:15px;
 		position:absolute;
-		bottom:-40px;
+		bottom:-50px;
 		left:50%;
 		border-radius:15px;
 		border:none;
@@ -414,43 +644,31 @@
 		position:absolute;
 		bottom:0px;
 		text-align:center !important;
-		opacity:0.5;
+		opacity:0;
 		
 	}
 
-	#ftrCntr{
-		
-		
-		
-	}
+	
 	
 	.verticalBorder{
 	
-		border-left:3px solid white;
+		border-left:1px solid white;
 		height:600px;
 		position:absolute;
 		left:50%;
 	
-	}		
-	
-	#ftrVertBrdr{
-		
-		height:400px;
-		left:65%;
-		margin-top:150px;
-	
-	}
-	
-	#ftrHrztBrdr{
-		
-		height:400px;
-		left:65%;
-		margin-top:150px;
-		border-left:2px solid white;
-		
-	}
+	}	
 
-
+	.separatingBorder{
+		
+		border-color:#d3d3d3 !important;
+		
+		
+	}	
+	
+	
+	
+	
 
 
 
