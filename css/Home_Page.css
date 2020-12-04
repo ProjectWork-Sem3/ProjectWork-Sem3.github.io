@@ -111,11 +111,11 @@
 		
 	}
 
-	h1 {
+	#formLogoText h1 {
 		font-family: 'world_conflictregular';
 		position: absolute;
-		top: 125px;
-		left: 110px;
+		top: 290px;
+		left: 640px;
 		font-size: 140px;
 		opacity: .9;
 	}
@@ -348,10 +348,21 @@
 		text-align:center !important;
 		margin:0 auto;
 		border-radius:0px;
+		position:relative;
+		z-index:0;
 		
 	}
 	
-<<<<<<< HEAD
+	#jumbotron_3 h1{
+		
+		position:absolute;
+		z-index:1;
+		left:35%;
+		top:3px;
+		color:#d3d3d3;
+		
+	}
+	
 	#jumbotron_3 h3{
 		
 		color:#FFF;
@@ -395,12 +406,28 @@
 		
 	}
 	
+	#jumbotron_4 img:hover{
+	
+		width:205px;
+		height:68px;
+		transition:0.6s;
+		
+	}
+	
 	#appstoreicon{
 		
 		height:77px !important;
 		margin-left:20px;
 		margin-top:-6px !important;
 		
+	}
+	
+	#appstoreicon:hover{
+		
+		width:205px;
+		height:80px !important;
+		transition:0.6s;
+
 	}
 	
 	#formLogo{
@@ -418,8 +445,6 @@
 		left:-530px;	
 
 	}
-=======
->>>>>>> 9fca64a43b156e9257d7c880e17808494a35521b
 
 	.jumbotron img{
 		
@@ -516,11 +541,11 @@
 
 	.panel-footer {
 
-		padding-top: 35px;
+		padding-top: ;
+		padding-bottom:15px;
 		background-color:#343A40;
-		border-top: 0;
+		border-top:0;
 		color:#DEFFFF;
-		margin-bottom:70px;;
 
 	}
 
