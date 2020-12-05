@@ -50,7 +50,7 @@
 
     				<li class="nav-item dropdown" >
 						
-						<a class="nav-link dropdown-toggle navBarLink borderHover" id="rentalDropdown" onClick="ren()" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle navBarLink borderHover" id="rentalDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						
 							Rental Service
 						
@@ -58,19 +58,35 @@
 						
 						<div class="dropdown-menu"  id="rentalDropdownMenu" aria-labelledby="navbarDropdown">
 
-          					<a class="dropdown-item" href="#">4WD</a>
+          					<a class="dropdown-item" href="rent1.html">Mahindra Scorpio</a>
 
 							<div class="dropdown-divider"></div>
-
-          					<a class="dropdown-item " href="#">2WD</a>
-
-          					<div class="dropdown-divider"></div>
-
-          					<a class="dropdown-item " href="#">Limo Service</a>
 							
+          					<a class="dropdown-item" href="rent2.html">Vitara Brezza</a>
+
 							<div class="dropdown-divider"></div>
 							
-							<a class="dropdown-item " href="CarComparisonPage.html">Car Comparison</a>
+          					<a class="dropdown-item" href="rent3.html">Toyota Innova</a>
+
+							<div class="dropdown-divider"></div>
+							
+          					<a class="dropdown-item" href="rent4.html">Mahindra XUV300</a>
+
+							<div class="dropdown-divider"></div>
+							
+          					<a class="dropdown-item" href="rent5.html">Toyota Fortuner</a>
+
+							<div class="dropdown-divider"></div>
+							
+          					<a class="dropdown-item" href="rent6.html">Honda City</a>
+
+							<div class="dropdown-divider"></div>
+							
+          					<a class="dropdown-item" href="rent7.html">Tata Nexon</a>
+
+							<div class="dropdown-divider"></div>
+							
+          					<a class="dropdown-item" href="rent8.html">Toyota Camry</a>
 							
         				</div>
 						
@@ -90,15 +106,11 @@
 
 							<div class="dropdown-divider"></div>
 
-          					<a class="dropdown-item " href="#">2WD</a>
-
-          					<div class="dropdown-divider"></div>
-
           					<a class="dropdown-item " href="#">Exotic Cars</a>
 							
 							<div class="dropdown-divider"></div>
 							
-							<a class="dropdown-item " href="#">Vintage Collection</a>
+							<a class="dropdown-item " href="VintageCarsPage.html">Vintage Collection</a>
 							
         				</div>
 
@@ -206,36 +218,75 @@
           <div class="card_face card_face--back">back</div>
         </div>
     </div>
+	
+	<script>
+		var card1 = 
+		document.querySelector('.card1');
+		card1.addEventListener( 'click', function() {
+		  card1.classList.toggle('is-flipped');
+		});
 
-   
+		var card2 = 
+		document.querySelector('.card2');
+		card2.addEventListener( 'click', function() {
+		  card2.classList.toggle('is-flipped');
+		});
 
-  
-  </div>  
+		var card3 = 
+		document.querySelector('.card3');
+		card3.addEventListener( 'click', function() {
+		  card3.classList.toggle('is-flipped');
+		});
 
-<script>
-var card1 = 
-document.querySelector('.card1');
-card1.addEventListener( 'click', function() {
-  card1.classList.toggle('is-flipped');
-});
+		var card4 = 
+		document.querySelector('.card4');
+		card4.addEventListener( 'click', function() {
+		  card4.classList.toggle('is-flipped');
+		});
 
-var card2 = 
-document.querySelector('.card2');
-card2.addEventListener( 'click', function() {
-  card2.classList.toggle('is-flipped');
-});
 
-var card3 = 
-document.querySelector('.card3');
-card3.addEventListener( 'click', function() {
-  card3.classList.toggle('is-flipped');
-});
+	</script>
 
-var card4 = 
-document.querySelector('.card4');
-card4.addEventListener( 'click', function() {
-  card4.classList.toggle('is-flipped');
-});
-</script>
-</body>
+		<footer class="panel-footer">
+		
+			<div class="container-fluid">
+				
+				<div class="row">
+					
+					
+					
+					<div id="address" class="col-md-4">
+					
+						
+						
+						<hr class="d-md-none">
+					
+					</div>
+					
+					<div id="hours" class="col-md-4">
+						
+						<span></span><br>
+						
+						<hr class="d-md-none">
+					
+					</div>
+					
+				</div>
+				
+					
+				
+				<div class="footer-copyright text-center ">&copy; Copyright XtrmAuto 2020
+				<span class="inline sclMedia"><a href="https://www.instagram.com"><img id="instaIcon" class="inline" src="images/Footer/InstagramIcon.png"></a></span>
+				<span class="inline sclMedia"><a href="https://www.twitter.com"><img id="twitterIcon" class="inline" src="images/Footer/TwitterIcon.png"></a></span>	
+				<span class="inline sclMedia"><a href="https://www.facebook.com"><img id="facebookIcon" class="inline" src="images/Footer/Facebook.png"></a></span>
+					
+				
+				</div>
+			
+			</div>
+
+		</footer>
+	
+	</body>
+
 </html>

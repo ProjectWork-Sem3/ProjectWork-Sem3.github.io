@@ -152,5 +152,106 @@
 		
 			}
 			
-			
-		<style>
+	.panel-footer {
+
+		padding-top: ;
+		padding-bottom:15px;
+		background-color:#343A40;
+		border-top:0;
+		color:#DEFFFF;
+
+	}
+
+	#hours, #address {
+		
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+	#address p {
+	
+		color: lightgrey;	
+		font-size: 13px;
+		
+	}
+
+	#testimonials {
+
+		font-style: italic;	
+		padding-left: 30px;
+		padding-right: 30px;
+	
+	}
+	
+	.sclMedia a{
+	
+		color:#DEFFFF;
+		
+	}
+	
+	.sclMedia a:hover{
+		
+		text-decoration:none;
+		
+	}
+	
+	#instaIcon{
+		
+		width:30px;
+		height:30px;
+		position:relative;
+		top:-2px;
+		
+	}
+
+	#twitterIcon{
+		
+		width:30px;
+		height:30px;
+		position:relative;
+		top:-2px;
+		
+	}
+		
+	#facebookIcon{
+		
+		width:20px;
+		height:20px;
+		position:relative;
+		top:-2px;
+		
+	}
+	
+	#goTopBtn{
+		
+		position:fixed;
+		bottom:15px;
+		background-color:white;
+		width:125px !important;
+		margin-left:25px;
+		
+	}
+	
+	#goTopBtn:hover{
+		
+		background-image:linear-gradient(to bottom right, grey, lightgrey);
+		
+	}
+	
+	.arrowMarkImg{
+		
+		margin-left:5px;
+		height:20px;
+		width:20px;
+		
+	}
+	
+	button:focus{
+		
+		outline:none;
+		
+	}
+	
+	
+<style>

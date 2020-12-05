@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('fonts/PunchLimit/punchlimit-webfont.woff2') format('woff2'),
+         url('fonts/PunchLimit/punchlimit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'atmosphere_script_typefaceRg';
+    src: url('../atmosphere/atmosphere-regular-webfont.woff2') format('woff2'),
+         url('../atmospher/atmosphere-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
 body{
 	
 	background-color:#F7F7F7;
@@ -13,11 +35,24 @@ body{
 
 #jumbotron_1{
 	
-	background-image:url("../images/HomePage/gtrcar.jpg");
+	background-image:url("../images/CarComparison/5.jpg");
 	text-align:center;
 	margin-top:80px;
 	height:300px;
-	clear:both;
+	border-radius:0px;
+	
+}
+
+#jumbotron_1 h1{
+	
+	font-family:'webfontregular' !important;
+	font-size:70px !important;
+	padding:15px;
+	border-radius:10px;
+	position:relative;
+	top:50px;
+	box-shadow: 1px 1px 15px white;
+	color:#d3d3d3;
 	
 }
 
@@ -101,7 +136,7 @@ li{
 
 #compareDropdown p{
 	
-	position:relative;
+	position:absolute;
 	border-bottom:1px solid grey;
 	left:200px;
 	float:left;
@@ -405,6 +440,7 @@ li{
 	float:left;
 	height:1430px;
 	left:-50px;
+	float:left;
 	
 }
 
@@ -415,7 +451,8 @@ li{
 	height:1430px;
 	right:80px;
 	width:620px;
-	
+	float:right;
+
 }
 
 #mainCardContainer td{
@@ -445,6 +482,13 @@ li{
 	
 	margin-left:-5px;
 	margin-right:40px !important;
+	
+}
+
+.panel-footer{
+	
+	position:absolute !important;
+	bottom:-1250px !important;
 	
 }
 
