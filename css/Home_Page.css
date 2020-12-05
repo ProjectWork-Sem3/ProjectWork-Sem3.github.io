@@ -114,8 +114,13 @@
 	#formLogoText h1 {
 		font-family: 'world_conflictregular';
 		position: absolute;
+<<<<<<< HEAD
 		top: 130px;
 		left: 115px;
+=======
+		top: 290px;
+		left: 640px;
+>>>>>>> f1eb9f40061b1f4b6965428359bf4af8a821fa61
 		font-size: 140px;
 		opacity: .9;
 	}
@@ -438,6 +443,16 @@
 		top:200px;
 	
 	}
+<<<<<<< HEAD
+=======
+		
+	#formLogoText{
+		
+		position:relative;
+		left:-530px;	
+
+	}
+>>>>>>> f1eb9f40061b1f4b6965428359bf4af8a821fa61
 
 	.jumbotron img{
 		
