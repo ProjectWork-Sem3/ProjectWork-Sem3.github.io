@@ -17,7 +17,6 @@ body {
 	padding:10px;
 	background-color:transparent;
 }
-
 .limoBtn:hover{
 	background-color:blue;
 	color:white;
@@ -42,15 +41,16 @@ body {
 
 #navbarSupportedContent{
     position:relative;
-    padding-left:250px;
+    padding-left:150px;
     text-align:center;
+	margin-top:5px;
 }
 			
 			.nav-link{
 				
 				color:black;
 				font-family:'Montserrat', sans-serif;
-				font-size:18px;
+				font-size:21px;
 				
 			}
 			
@@ -112,12 +112,13 @@ body {
             #sgnInBtn{
                 
                 width:100px;
-                border:2px solid white;
+                border:3px solid white;
 				border-radius:27px;
 				padding:10px 7px ;
 				background-color:transparent;
 				transition:0.4s;
-                color:black
+                color:black;
+				font-size:20px;
                 
             }
 #sgnInBtn:hover{
@@ -125,7 +126,7 @@ body {
   border:none;
   color:white;
   border-color:lightgrey;
-  transition:0.7s;
+  transition:0.4s;
   font-size:17px;
   box-shadow:2px 5px 10px grey;
 }

@@ -2,7 +2,7 @@
 			
 			body{
 
-				font-size:13px;
+				font-size:13px !important;
 				background-color:#F7F7F7;
 			
 			}
@@ -32,7 +32,7 @@
 			#navbarSupportedContent{
 				
 				position:relative;
-				padding-left:250px;
+				padding-left:140px;
 				text-align:center;
 				
 			}
