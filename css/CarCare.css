@@ -1,0 +1,117 @@
+#body{
+	
+	font-family:'Montserrat', sans-serif;
+	
+
+}
+.container {
+  position: relative;
+  font-family: Arial;
+  padding:15px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: gray;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#textJumbotron{
+
+	margin-top:;
+	background-image:  url("../images/CarCare/Servicing.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	height:1000px;
+
+	width:100%;
+	
+	color:#d3d3d3;
+
+}
+
+#textJumbotron h1{
+	text-decoration:underline;
+}
+
+#textContainer{
+position:relative;
+height:auto;
+width:100%;
+background-color:black;
+opacity:0.8;
+color:#d3d3d3;
+border-radius:10px;
+text-align:left;
+margin-bottom:150px;
+}
+
+#textContainer h3{
+
+	text-align:center !important;
+
+}
+
+#CoronaContainer{
+
+	margin-top:50px;
+
+	 position: relative;
+  bottom:30px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  border-radius:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom:100px;
+}
+
+#CoronaContainer p{
+	text-align: left;
+}
+
+
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#service{
+	margin-bottom: :50px;
+
+	 position: relative;
+  bottom:30px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  border-radius:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom:100px;
+}	
+}

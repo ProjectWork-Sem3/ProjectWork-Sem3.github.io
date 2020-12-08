@@ -66,8 +66,9 @@ body{
 	
 	position:fixed;
 	bottom:15px;
-	left:25;
+	left:;
 	width:100px;
+	z-index:1;
 	
 }	
 
@@ -170,6 +171,7 @@ li{
 	color:black;
 	border-radius:5px;
 	margin-bottom:10px;
+	box-shadow:2px 2px 5px grey; 
 	
 }
 
@@ -208,7 +210,13 @@ li{
 	
 	position:relative;
 	float:right;
-	margin-right:200px;
+	margin-right:130px;
+	
+}
+
+#compareCarDropdownBtn span{
+	
+	margin-left:110px !important;
 	
 }
 
@@ -220,6 +228,7 @@ li{
 	color:black;
 	border-radius:5px;
 	margin-bottom:10px;
+	box-shadow:2px 2px 5px grey;
 	
 }
 
@@ -403,6 +412,12 @@ li{
 	
 }
 
+#compareCard_5 img{
+	
+	width:554px;
+	
+}
+
 #compareCard_6{
 	
 	display:none;
@@ -455,6 +470,18 @@ li{
 
 }
 
+#mainCardContainer img{
+	
+	width:555px;
+	
+}
+
+#mainCompareCardContainer img{
+	
+	width:555px;
+	
+}
+
 #mainCardContainer td{
 	
 	width:30px !important;
@@ -487,8 +514,9 @@ li{
 
 .panel-footer{
 	
-	position:absolute !important;
-	bottom:-1250px !important;
+	position:relative !important;
+	bottom:-1500px !important;
+	width:100%;
 	
 }
 

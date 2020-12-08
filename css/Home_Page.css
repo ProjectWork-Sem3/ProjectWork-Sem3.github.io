@@ -29,6 +29,42 @@
 
 }
 
+@font-face {
+    font-family: 'webfontregular';
+    src: url('fonts/PunchLimit/punchlimit-webfont.woff2') format('woff2'),
+         url('fonts/PunchLimit/punchlimit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'the_talkshowregular';
+    src: url('fonts/TheTalkShow/thetalkshow-dafont-webfont.woff2') format('woff2'),
+         url('fonts/TheTalkShow/thetalkshow-dafont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hotsweatregular';
+    src: url('fonts/HotSweat/hotsweat-webfont.woff2') format('woff2'),
+         url('fonts/HotSweat/hotsweat-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'devil_tail_-_personal_useRg';
+    src: url('fonts/DevilTail/devil_tail-webfont.woff2') format('woff2'),
+         url('fonts/DevilTail/devil_tail-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 <style>
 
@@ -118,6 +154,34 @@
 		left: 115px;
 		font-size: 140px;
 		opacity: .9;
+		text-shadow:0px 0px 20px lightgrey;
+		
+	}
+	
+	#parallaxJumbo_1{
+		
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/ParallaxJumbotrons/gtr34_1.jpg");
+		padding-top:150px;
+		padding-bottom:150px;
+		height:auto;
+		background-size:cover;
+		text-align:center;
+		color:#d3d3d3;
+		font-size:60px;
+		font-family:'the_talkshowregular';
+		margin-bottom:0px;
+		margin-topo:0px;
+		
+	}
+	
+	
+	#parallaxJumbo_1 p{
+		
+		color:#d3d3d3;
+		padding-bottom:3px;
+		text-shadow:0px 0px 20px #D30043; 
+		letter-spacing:7px;
+
 	}
 	
 	#jumbotron_2{
@@ -125,7 +189,7 @@
 		height:1000px;
 		background-size:cover;
 		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/HomePage/wheelbackground.jpg");
-		margin-bottom:0px;
+		margin-bottom:-20px;
 		margin-top:0px;
 		
 	}
@@ -173,8 +237,8 @@
       	padding-top: 20px;
      	padding-bottom: 20px;
 		background-color:transparent;
-		position:absolute;
-		bottom:-140%;
+		position:relative;
+		top:-400px;
 		margin-bottom:0px;
 		margin-top:0px;
 		
@@ -344,9 +408,9 @@
 		background-size:cover;
 		background-color:#000;
 		height:700px;
+		margin-top:-400px;
 		margin-bottom:0px;
 		text-align:center !important;
-		margin:0 auto;
 		border-radius:0px;
 		position:relative;
 		z-index:0;
