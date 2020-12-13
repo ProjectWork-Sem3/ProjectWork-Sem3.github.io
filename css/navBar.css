@@ -113,9 +113,9 @@
 				
 				width:auto;
 				border:2px outset black;
-				border-radius:17px;
-				padding:10px 7px ;
-				background-color:transparent;
+				border-radius:30px;
+				padding:10px 7px;
+				background-color:transparent !important;
 				transition:0.4s;
 				
 			}
@@ -124,10 +124,11 @@
 				
 				background-color:white;
 				border-color:lightgrey;
-				transition:0.7s;
-				font-size:17px;
-				box-shadow:2px 5px 10px black;
-				background-image:linear-gradient(to bottom right, grey, silver) ;
+				transition:0.4s;
+				color:white;
+				font-size:14px;
+				box-shadow:2px 5px 5px grey;
+				background-image:linear-gradient(to bottom right, dodgerblue, dodgerblue) ;
 				
 			}
 			

@@ -28,10 +28,15 @@ body {
 	padding:10px;
 	background-color:transparent;
 }
+
 .limoBtn:hover{
 	background-color:blue;
 	color:white;
 	transition:0.4s;
+}
+
+#modalCloseBtn:focus{
+	outline:none;
 }
 
 <!--*******************************************NAVBAR**************************************************-->
