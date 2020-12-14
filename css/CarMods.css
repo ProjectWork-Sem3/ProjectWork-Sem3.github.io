@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('fonts/PunchLimit/punchlimit-webfont.woff2') format('woff2'),
+         url('fonts/PunchLimit/punchlimit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
 html {
 	scroll-behavior: smooth;
 }
@@ -6,9 +18,57 @@ html {
 	font-weight: bold;
 }
 
-body {
-	
+/***********MAIN CONTENT*************/
+#jumbotron1 {
+	background-color: black;
+	height: 700px;
+	position: relative;
 }
+.jumbotron {
+	background: url('../images/mods/background.png') no-repeat;
+	height: 600px;
+}
+
+.heading1 {
+	 font-family: 'cocaine_sansregular',sans-serif;
+	color: white;
+}
+
+.container1 {
+	position: absolute;
+	height: 590px;
+	width: 1000px;
+	top: 620px;
+	left: 250px;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	border: 2px solid black;
+}
+
+.card-columns {
+	width: 100%;
+	padding: 10px;
+}
+
+.card-columns .card {
+	width: 285px;
+	height: 250px;
+	margin: 15px;
+}
+
+.nav-link2 {
+	width: 285px;
+	height: 250px;
+	padding: 0;
+}
+
+
+.tab-content {
+	position: absolute;
+
+}
+
 
 
 .panel-footer {
