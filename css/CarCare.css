@@ -103,13 +103,11 @@
 			
 			.button:hover{
 				
-				background-color:white;
+				background-color:dodgerblue;
 				border-color:lightgrey;
-				transition:0.7s;
-				font-size:17px;
-				box-shadow:2px 5px 10px black;
-				background-image:linear-gradient(to bottom right, grey, silver) ;
-				
+				transition:0.4s;
+				font-size:13px;
+				box-shadow:2px 5px 5px grey;
 			}
 			
 			.button:active{
@@ -276,7 +274,7 @@
 	color:white;
 	padding-bottom:10px;
 	padding-top:5px;
-	background-color:dodgerblue !important;
+	background-image:linear-gradient(rgba(30,144,255,0.7), rgba(30,144,255,0.7));
 }
 
 #textContainer{
@@ -284,7 +282,7 @@ margin-top:50px;
 position:relative;
 height:auto;
 width:100%;
-background-color:dodgerblue !important;
+background-image:linear-gradient(rgba(30,144,255,0.7), rgba(30,144,255,0.7));
 color:white;
 border-radius:10px;
 text-align:left;
@@ -304,7 +302,7 @@ margin-bottom:150px;
 	position: relative;
 	bottom:30px;
 	width: 100%;
-	background-color: dodgerblue !important;
+	background-image:linear-gradient(rgba(30,144,255,0.7), rgba(30,144,255,0.7));
 	color: white; 
 	border-radius:10px;
 	padding-left: 10px;
