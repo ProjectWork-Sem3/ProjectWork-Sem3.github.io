@@ -95,7 +95,7 @@
 				width:auto;
 				border:2px outset black;
 				border-radius:30px;
-				padding:10px 7px ;
+				padding:10px 7px !important;
 				background-color:transparent;
 				transition:0.4s;
 				
