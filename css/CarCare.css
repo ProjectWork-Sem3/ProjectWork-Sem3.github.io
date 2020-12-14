@@ -92,7 +92,7 @@
 			
 			.button{
 				
-				width:auto;
+				width:120px;
 				border:2px outset black;
 				border-radius:30px;
 				padding:10px 7px !important;
@@ -235,7 +235,9 @@
 	
 	
 	
-	
+h1, h2, h3, h4{
+	background-image:linear-gradient(rgba(30,144,255,0.7), rgba(30,144,255,0.7)) !important;
+}	
 
 .container {
   position: relative;
