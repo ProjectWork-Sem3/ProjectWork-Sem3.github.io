@@ -1,7 +1,8 @@
 body {
-	font-size:17px;
 	font-family:'Oxygen', sans-serif;
-	background: url("../images/buycars-page/background-image.jpg") repeat;			
+	repeat:no-repeat;
+	background-color:lightgrey;	
+	font-size:17px;
 }
 			
 .bold {		
@@ -10,17 +11,59 @@ body {
 			
 /***********NAV BAR**********************/			
 
+#goTopBtn{
+	background-color:white !important;
+}
 
+
+#search{
+	border-radius:30px;
+	padding:12px 50px 12px 15px; 
+	border:0px solid black; 
+	margin-bottom:30px; 
+	position:relative;
+	left:18px; 
+	width:530px;
+	font-size:20px !important;
+}
+#search:hover,#search:focus{
+	box-shadow:2px 2px 4px grey;
+	transition:0.3s;
+}
+#search:focus{
+	outline:none;
+}
+
+#searchIcon{
+	position:relative; 
+	right:10px; 
+	color:#757575;
+}
+
+.sellBtn{
+	margin-left:20px;
+	width:125px !important;
+	background-color:white !important;
+}
 
 .button{
 	
-	background-color:transparent;
-	width:100 !important;
 	border:2px outset black;
 	border-radius:17px;
 	padding:10px;	
 	font-weight:bold;
 	
+}
+.cardBuyNow{
+	width:515px !important;
+	text-align:center;
+	margin-left:10px;
+	margin-bottom:15px;
+}
+.cardBuyNow:hover{
+	background-color:dodgerblue;
+	font-size:13px;
+	color:white;
 }
 
 #sgnInBtn{
@@ -34,6 +77,42 @@ body {
 	font-family:'Montserrat', sans-serif;
 	
 }
+
+#navbarSupportedContent{
+				
+				position:relative;
+				padding-left:230px !important;
+				text-align:center;
+				font-weight:bold;
+			}
+			
+			.nav-link{
+				
+				color:black;
+				font-family:'Montserrat', sans-serif;
+				font-size:20px !important;
+				
+			}
+			
+			.nav-link:hover{
+				
+				color:black;
+				
+			}
+			
+			.nav-item{
+				
+				margin-bottom:5px;
+				padding-right:50px;
+				
+			}
+			
+			.borderHover:hover{
+				
+				border-bottom:3px solid black;
+				transition:0.5s;
+				
+			}
 
 
 	
@@ -158,4 +237,36 @@ h3.modal-title {
 .modal-body div#login a:hover{
 	color: #000;
 	text-decoration: none;
+}
+
+#buyCarContainer{
+	background-color:lightgrey;
+	text-align:center !important;
+	border-radius:13px;
+	height:301px;
+	width:535px;
+	position:fixed;
+	bottom:270px;
+	left:437px;
+	opacity:0.9;
+	display:none;
+}
+#buyCarContainer p{
+	margin-top:20%;
+	font-size:30px;
+}
+
+#buyCarContainer button{
+	background-color:lightgrey;
+	border-radius:30px;
+	margin-top:10px;
+	width:190px !important;
+	
+}
+#myModal button:hover{
+	border:1px solid white;
+	background-color:dodgerblue;
+	color:white;
+	box-shadow:2px 2px 4px grey;
+	transition:0.4s;
 }
