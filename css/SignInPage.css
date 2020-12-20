@@ -179,5 +179,30 @@
 	
 	}
 	
+	.dropdown-menu{
+		
+		background-color:#F7F7F7;
+		border:none;
+		display:none;
+		
+	}	
+	
+	.dropdown-item:hover{
+		
+		background-color:white;
+		
+	}
+	
+	.dropdown-divider{
+		
+		border-bottom:1px solid lightgrey;
+		
+	}
+	
+	#rentalDropdownMenu{
+		
+		display:none;
+		
+	}
 
 </style>
