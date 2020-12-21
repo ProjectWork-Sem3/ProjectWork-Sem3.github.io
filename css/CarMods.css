@@ -46,6 +46,10 @@ html {
 	font-weight: bold;
 }
 
+.button{
+	width:125px;
+}
+
 /***********MAIN CONTENT*************/
 #jumbotron1 {
 	background-color: black;
