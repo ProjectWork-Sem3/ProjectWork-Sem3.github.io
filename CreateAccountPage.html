@@ -302,26 +302,15 @@
 				var dob = document.getElementById("dateOfBirth");
 				var sgnUp_Btn = document.getElementById("sgnUpBtn");
 			
-				if(u_mail.value==""){
+				if(u_mail.value=="" || new_pass.value=="" || cnf_pass.value=="" || card_num.value=="" || dob.value==""){
 					alert("You cannot leave the fields empty!!!");
 					u_mail.style.border = "2px solid red";
-					return false;
-				}
-				else if(new_pass.value==""){
-					alert("You cannot leave the fields empty!!!");
 					new_pass.style.border = "2px solid red";
-					return false;				       
-				}
-				else if(cnf_pass.value==""){
-					alert("You cannot leave the fields empty!!!");
 					cnf_pass.style.border = "2px solid red";
-					return false;				       
-				}
-				else if(card_num.value==""){
-					alert("You cannot leave the fields empty!!!");
 					card_num.style.border = "2px solid red";
-					return false;				       
-				}						       
+					dob.style.border = "2px solid red";
+					return false;
+				}					       
 				else if(new_pass.value != cnf_pass.value){
 					alert("Your passwords do not match!!");
 					new_pass.style.border = "2px solid red";
