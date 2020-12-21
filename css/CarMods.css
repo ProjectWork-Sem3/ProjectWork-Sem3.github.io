@@ -47,7 +47,7 @@ html {
 }
 
 .button{
-	width:125px;
+	width:125px !important;
 }
 
 /***********MAIN CONTENT*************/
